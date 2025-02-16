@@ -1,4 +1,4 @@
-name: Create or update KV2 secret engine claim
+name: Create or update JWT claims
 
 # Controls when the workflow will run
 on:
