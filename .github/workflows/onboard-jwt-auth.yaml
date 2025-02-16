@@ -32,18 +32,18 @@ jobs:
               echo "Vault environment $vaultEnvironment is not supported."
           fi
 
-      - name: Generate token
-        id: generate_token
-        uses: getsentry/action-github-app-token@v2
-        with:
-          app_id: ${{ secrets.CENTRAL_VAULT_ENTERPRISE_APP_ID_GH }}
-          private_key: ${{ secrets.CENTRAL_VAULT_ENTERPRISE_APP_KEY_GH }}
+#      - name: Generate token
+#        id: generate_token
+#        uses: getsentry/action-github-app-token@v2
+#        with:
+#          app_id: ${{ secrets.CENTRAL_VAULT_ENTERPRISE_APP_ID_GH }}
+#          private_key: ${{ secrets.CENTRAL_VAULT_ENTERPRISE_APP_KEY_GH }}
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout repo
-        uses: actions/checkout@v3
-        env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+#      - name: Checkout repo
+#        uses: actions/checkout@v3
+#        env:
+#          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
 
       - name: Checkout branch
         id: checkout-branch
@@ -103,102 +103,102 @@ jobs:
           fi
 
       # Runs a python script to create or update claim
-      - name: Create or update claims
-        run: |
-          echo "Running the KV2 secret engine claim script..."
-          if [ "${{ inputs.vaultEnvironment }}" == "weu-qa" ]; then
-            python3 scripts/github-actions/kv2-secret-engine-claim.py 'create_secret_engine_claim' \
-                                                  --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
-                                                  --systemName '${{ inputs.systemName }}' \
-                                                  --ownerGroup "$ENTRA_ID_GROUP" \
-                                                  --updatedBy '${{ inputs.updatedBy }}' \
-                                                  --clientID 'a27a21ba-0882-4217-a06a-78858900893f' \
-                                                  --clientSecret '${{ secrets.CENTRAL_VAULT_QA_CLIENT_SECRET_AZ }}'
+#      - name: Create or update claims
+#        run: |
+#          echo "Running the KV2 secret engine claim script..."
+#          if [ "${{ inputs.vaultEnvironment }}" == "weu-qa" ]; then
+#            python3 scripts/github-actions/kv2-secret-engine-claim.py 'create_secret_engine_claim' \
+#                                                  --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
+#                                                  --systemName '${{ inputs.systemName }}' \
+#                                                  --ownerGroup "$ENTRA_ID_GROUP" \
+#                                                  --updatedBy '${{ inputs.updatedBy }}' \
+#                                                  --clientID 'a27a21ba-0882-4217-a06a-78858900893f' \
+#                                                  --clientSecret '${{ secrets.CENTRAL_VAULT_QA_CLIENT_SECRET_AZ }}'
 
-          elif [ "${{ inputs.vaultEnvironment }}" == "weu-prod" ]; then
-            python3 scripts/github-actions/kv2-secret-engine-claim.py 'create_secret_engine_claim' \
-                                                  --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
-                                                  --systemName '${{ inputs.systemName }}' \
-                                                  --ownerGroup "$ENTRA_ID_GROUP" \
-                                                  --updatedBy '${{ inputs.updatedBy }}' \
-                                                  --clientID 'a2b175e4-01bd-4ee8-84d1-3c3936303bbb' \
-                                                  --clientSecret '${{ secrets.CENTRAL_VAULT_CLIENT_SECRET_AZ }}'
+#          elif [ "${{ inputs.vaultEnvironment }}" == "weu-prod" ]; then
+#            python3 scripts/github-actions/kv2-secret-engine-claim.py 'create_secret_engine_claim' \
+#                                                  --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
+#                                                  --systemName '${{ inputs.systemName }}' \
+#                                                  --ownerGroup "$ENTRA_ID_GROUP" \
+#                                                  --updatedBy '${{ inputs.updatedBy }}' \
+#                                                  --clientID 'a2b175e4-01bd-4ee8-84d1-3c3936303bbb' \
+#                                                  --clientSecret '${{ secrets.CENTRAL_VAULT_CLIENT_SECRET_AZ }}'
 
-          else
-            echo "Invalid vault environment"
-            exit 1
-          fi
+#          else
+#            echo "Invalid vault environment"
+#            exit 1
+#          fi
 
-      - name: Create or update group access claims
-        run: |
-          # Define group access configurations dynamically
-          groupAccessConfigs='[{"entraIDGroup":"'$ENTRA_ID_GROUP'","readSecretPaths":[],"writeSecretPaths":[{"writeSecretPath":"*"}]}]'
+#      - name: Create or update group access claims
+#        run: |
+#          # Define group access configurations dynamically
+#          groupAccessConfigs='[{"entraIDGroup":"'$ENTRA_ID_GROUP'","readSecretPaths":[],"writeSecretPaths":[{"writeSecretPath":"*"}]}]'
 
-          echo "Group Access Configs: $groupAccessConfigs"
+#          echo "Group Access Configs: $groupAccessConfigs"
 
-          if [ "${{ inputs.vaultEnvironment }}" == "weu-qa" ]; then
-            python3 scripts/github-actions/kv2-group-access-claim.py 'create_group_access_claim' \
-              --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
-              --secretEngine '${{ inputs.systemName }}-kv' \
-              --updatedBy '${{ inputs.updatedBy }}' \
-              --groupAccessConfigs "$groupAccessConfigs" \
-              --clientID 'a27a21ba-0882-4217-a06a-78858900893f' \
-              --clientSecret '${{ secrets.CENTRAL_VAULT_QA_CLIENT_SECRET_AZ }}'
-          elif [ "${{ inputs.vaultEnvironment }}" == "weu-prod" ]; then
-            python3 scripts/github-actions/kv2-group-access-claim.py 'create_group_access_claim' \
-              --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
-              --secretEngine '${{ inputs.systemName }}-kv' \
-              --updatedBy '${{ inputs.updatedBy }}' \
-              --groupAccessConfigs "$groupAccessConfigs" \
-              --clientID 'a2b175e4-01bd-4ee8-84d1-3c3936303bbb' \
-              --clientSecret '${{ secrets.CENTRAL_VAULT_CLIENT_SECRET_AZ }}'
-          else
-            echo "Invalid vault environment"
-            exit 1
-          fi
+#          if [ "${{ inputs.vaultEnvironment }}" == "weu-qa" ]; then
+#            python3 scripts/github-actions/kv2-group-access-claim.py 'create_group_access_claim' \
+#              --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
+#              --secretEngine '${{ inputs.systemName }}-kv' \
+#              --updatedBy '${{ inputs.updatedBy }}' \
+#              --groupAccessConfigs "$groupAccessConfigs" \
+#              --clientID 'a27a21ba-0882-4217-a06a-78858900893f' \
+#              --clientSecret '${{ secrets.CENTRAL_VAULT_QA_CLIENT_SECRET_AZ }}'
+#          elif [ "${{ inputs.vaultEnvironment }}" == "weu-prod" ]; then
+#            python3 scripts/github-actions/kv2-group-access-claim.py 'create_group_access_claim' \
+#              --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
+#              --secretEngine '${{ inputs.systemName }}-kv' \
+#              --updatedBy '${{ inputs.updatedBy }}' \
+#              --groupAccessConfigs "$groupAccessConfigs" \
+#              --clientID 'a2b175e4-01bd-4ee8-84d1-3c3936303bbb' \
+#              --clientSecret '${{ secrets.CENTRAL_VAULT_CLIENT_SECRET_AZ }}'
+#          else
+#            echo "Invalid vault environment"
+#            exit 1
+#          fi
 
-      - name: Commit changes
-        id: commit-changes
-        env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-        run: |
-          echo "Checking for changes to commit..."
-          if [ -n "$(git status --porcelain)" ]; then
-            git config user.email "BPPCSMOP@volvocars.com"
-            git config user.name "BPPCSMOP"
-            echo "git branch -l"
-            git branch -l
-            echo "git add";
-            git add --all -- ':!backstage-systems'
-            echo "git commit";
-            git commit -m "Created/Updated Claims for ${{ inputs.systemName }} KV2 secret engine"
-            echo "git push -u origin ${{ inputs.systemName }}-kv2-secret-engine-claim";
-            git push -u origin ${{ inputs.systemName }}-kv2-secret-engine-claim
-          else
-            echo "No changes to commit.";
-          fi
+#      - name: Commit changes
+#        id: commit-changes
+#        env:
+#          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+#        run: |
+#          echo "Checking for changes to commit..."
+#          if [ -n "$(git status --porcelain)" ]; then
+#            git config user.email "BPPCSMOP@volvocars.com"
+#            git config user.name "BPPCSMOP"
+#            echo "git branch -l"
+#            git branch -l
+#            echo "git add";
+#            git add --all -- ':!backstage-systems'
+#            echo "git commit";
+#            git commit -m "Created/Updated Claims for ${{ inputs.systemName }} KV2 secret engine"
+#            echo "git push -u origin ${{ inputs.systemName }}-kv2-secret-engine-claim";
+#            git push -u origin ${{ inputs.systemName }}-kv2-secret-engine-claim
+#          else
+#            echo "No changes to commit.";
+#          fi
 
-      - name: Create a PR
-        id: create-pr
-        env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-        run: |
-          git branch --show-current
-          pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.systemName }} KV2 secret engine claim" --body "Changes for adding/updating ${{ inputs.systemName }} KV2 secret engine claim along with the group claims if needed.")
-          # Extract the pull request number from the output and print it
-          pr_number=$(echo "$pr_output" | grep -oP '(?<=/pull/)\d+')
-          echo "Pull request created with number: $pr_number"
-          echo "pr_number=${pr_number}" >> $GITHUB_OUTPUT
+#      - name: Create a PR
+#        id: create-pr
+#        env:
+#          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+#        run: |
+#          git branch --show-current
+#          pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.systemName }} KV2 secret engine claim" --body "Changes for adding/updating ${{ inputs.systemName }} KV2 secret engine claim along with the group claims if needed.")
+#          # Extract the pull request number from the output and print it
+#          pr_number=$(echo "$pr_output" | grep -oP '(?<=/pull/)\d+')
+#          echo "Pull request created with number: $pr_number"
+#          echo "pr_number=${pr_number}" >> $GITHUB_OUTPUT
 
-      - name: Approve PR
-        if: ${{ inputs.autoApproval == 'true' }}
-        id: approve-pr
-        env:
-          GITHUB_TOKEN: ${{ secrets.BPPCSMOP_PAT_REPO_FULL_ACCESS }}
-        run: |
-          echo "Approving PR..."
-          gh pr review --approve ${{ steps.create-pr.outputs.pr_number }}
-          echo "PR approved successfully!"
-          echo "Merging PR..."
-          gh pr merge ${{ steps.create-pr.outputs.pr_number }} --auto
-          echo "PR merged successfully!"
+#      - name: Approve PR
+#        if: ${{ inputs.autoApproval == 'true' }}
+#        id: approve-pr
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.BPPCSMOP_PAT_REPO_FULL_ACCESS }}
+#        run: |
+#          echo "Approving PR..."
+#          gh pr review --approve ${{ steps.create-pr.outputs.pr_number }}
+#          echo "PR approved successfully!"
+#          echo "Merging PR..."
+#          gh pr merge ${{ steps.create-pr.outputs.pr_number }} --auto
+#          echo "PR merged successfully!"
