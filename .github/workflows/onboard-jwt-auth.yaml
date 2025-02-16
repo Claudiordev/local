@@ -9,8 +9,8 @@ on:
         description: "Vault environment where system will be configured"
         required: true
         type: string
-      system_name:
-        description: "Name of the backstage system"
+      vault_engine:
+        description: "Name of the vault engine"
         required: true
         type: string
       managed_entities:
