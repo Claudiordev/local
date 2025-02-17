@@ -36,6 +36,13 @@ jobs:
               echo "Vault environment $vaultEnvironment is not supported."
           fi
 
+      - name: Generate token for repo operations
+        id: generate_token
+        uses: getsentry/action-github-app-token@v2
+        with:
+          app_id: '1148079'
+          private_key: 'SHA256:H+ei294TA5cPdAVEkof5J2KUYjLKxCZ6sbhyV8Iglvg='
+
       # Checkout the repository first
       - name: Checkout repo
         uses: actions/checkout@v3
