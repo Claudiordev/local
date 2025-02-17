@@ -19,6 +19,34 @@ class JwtClaims(object):
         self.__yaml = YAML(typ=['rt', 'string'])
         self.__yaml.default_flow_style = False
 
+    def _claimPathExists(self, path)-> bool:
+        """
+            Returns:
+            bool: Returns True if the directory for path exists, otherwise False.
+        """
+        return os.path.exists(path)
+
+    def process_string(self,input_string):
+        """
+            Replaces the irregular character strings.
+
+        :return:
+        """
+        processed_string = (input_string.replace("/", "-").replace("#", "").replace("*", "-").replace(".", "-").replace("_", "-").replace("--", "-").replace(" ", "-"))
+
+        return processed_string
+
+    def loadTemplate(self, kustomization_path):
+        # open the yaml file for reading and writing
+        logger.info(f"Loading the kustomization data from {kustomization_path}.")
+
+        with open(kustomization_path, "r+") as f:
+            # load the kustomization data
+            self.__kustomizationData = self.__yaml.load(f)
+
+        return
+
+
     def processGroupClaim(self):
         """
             Generate internal group claim
@@ -29,7 +57,7 @@ class JwtClaims(object):
         logger.info("Current working directory: {0}".format(cwd))
 
         claim_path = cwd + "/" + self.__systemName
-        claim_exists=False
+        claim_exists = False
 
         if not self._claimPathExists(claim_path):
             logger.info(f"The directory for the claim {self.__systemName} does not exist.")
@@ -44,6 +72,28 @@ class JwtClaims(object):
                 logger.info(f"The claim for {self.__systemName} exists, updating.")
             else:
                 logger.info(f"The claim {self.__systemName} will be created.")
+
+        #Load template of Internal Group Claim
+        kustomization_path = claim_path
+        if not claim_exists:
+            kustomization_path = f"templates/jwt-internal-group-claim.yaml"
+
+        self.loadTemplate(kustomization_path)
+
+        logger.info("Updating the claim details.")
+        # update the claim details
+        self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-group"
+        self.__kustomizationData["spec"]["parameters"]["group"]["name"] = self.__systemName + "-group"
+        self.__kustomizationData["spec"]["parameters"]["group"]["policy"] = self.__systemName + "-policy"
+
+        logger.info(f"Updating the {self.__systemName}/{self.__systemName}.yaml")
+
+        with open(claim_path, "w") as f:
+            self.__yaml.dump(self.__kustomizationData, f)
+            logger.info("JWT Internal Group Claim saved successfully.")
+            logger.info("---------------------------------")
+
+        return
 
 if __name__ == "__main__":
     try:
