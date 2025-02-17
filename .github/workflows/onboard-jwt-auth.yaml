@@ -73,7 +73,7 @@ jobs:
           repository: 'backstage-systems'
           depth: 1
           branch: 'main'
-          access-token: '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'
+          access-token: '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'
 
       - name: Find the Entra ID group of the system owner
         run: |
