@@ -13,6 +13,10 @@ on:
         description: "Name of the vault engine"
         required: true
         type: string
+      system_name:
+        description: "Name of the system"
+        required: true
+        type: string
       managed_entities:
         description: "Entity to add JWT access to"
         required: true
