@@ -152,7 +152,7 @@ jobs:
       - name: Commit changes
         id: commit-changes
         env:
-          GITHUB_TOKEN: "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"
+          GITHUB_TOKEN: "X"
         run: |
           echo "Checking for changes to commit..."
           if [ -n "$(git status --porcelain)" ]; then
@@ -164,8 +164,8 @@ jobs:
             git add --all -- ':!backstage-systems'
             echo "git commit";
             git commit -m "Created/Updated Claims for ${{ inputs.system_name }} JWT"
-            echo "git push -u origin ${{ inputs.system_name }}-jwt-claims";
-            git push -u origin ${{ inputs.system_name }}-jwt-claims
+            echo "git push -u origin ${{ inputs.vault_engine }}-jwt-claim";
+            git push -u origin ${{ inputs.vault_engine }}-jwt-claim
           else
             echo "No changes to commit.";
           fi
@@ -176,7 +176,7 @@ jobs:
           GITHUB_TOKEN: "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"
         run: |
           git branch --show-current
-          pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.system_name }} JWT claims" --body "Changes for adding/updating ${{ inputs.system_name }} JWT claims along with the group claims if needed.")
+          pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.vault_engine }} JWT claims" --body "Changes for adding/updating ${{ inputs.vault_engine }} JWT claims along with the group claims if needed.")
           # Extract the pull request number from the output and print it
           pr_number=$(echo "$pr_output" | grep -oP '(?<=/pull/)\d+')
           echo "Pull request created with number: $pr_number"
