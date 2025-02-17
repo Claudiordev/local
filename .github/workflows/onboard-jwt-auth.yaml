@@ -149,38 +149,38 @@ jobs:
 #            exit 1
 #          fi
 
-#      - name: Commit changes
-#        id: commit-changes
-#        env:
-#          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-#        run: |
-#          echo "Checking for changes to commit..."
-#          if [ -n "$(git status --porcelain)" ]; then
-#            git config user.email "BPPCSMOP@volvocars.com"
-#            git config user.name "BPPCSMOP"
-#            echo "git branch -l"
-#            git branch -l
-#            echo "git add";
-#            git add --all -- ':!backstage-systems'
-#            echo "git commit";
-#            git commit -m "Created/Updated Claims for ${{ inputs.systemName }} KV2 secret engine"
-#            echo "git push -u origin ${{ inputs.systemName }}-kv2-secret-engine-claim";
-#            git push -u origin ${{ inputs.systemName }}-kv2-secret-engine-claim
-#          else
-#            echo "No changes to commit.";
-#          fi
+      - name: Commit changes
+        id: commit-changes
+        env:
+          GITHUB_TOKEN: "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"
+        run: |
+          echo "Checking for changes to commit..."
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.email "cfreita1@volvocars.com"
+            git config user.name "Claudiordev"
+            echo "git branch -l"
+            git branch -l
+            echo "git add";
+            git add --all -- ':!backstage-systems'
+            echo "git commit";
+            git commit -m "Created/Updated Claims for ${{ inputs.system_name }} JWT"
+            echo "git push -u origin ${{ inputs.system_name }}-jwt-claims";
+            git push -u origin ${{ inputs.system_name }}-jwt-claims
+          else
+            echo "No changes to commit.";
+          fi
 
-#      - name: Create a PR
-#        id: create-pr
-#        env:
-#          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-#        run: |
-#          git branch --show-current
-#          pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.systemName }} KV2 secret engine claim" --body "Changes for adding/updating ${{ inputs.systemName }} KV2 secret engine claim along with the group claims if needed.")
-#          # Extract the pull request number from the output and print it
-#          pr_number=$(echo "$pr_output" | grep -oP '(?<=/pull/)\d+')
-#          echo "Pull request created with number: $pr_number"
-#          echo "pr_number=${pr_number}" >> $GITHUB_OUTPUT
+      - name: Create a PR
+        id: create-pr
+        env:
+          GITHUB_TOKEN: "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"
+        run: |
+          git branch --show-current
+          pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.system_name }} JWT claims" --body "Changes for adding/updating ${{ inputs.system_name }} JWT claims along with the group claims if needed.")
+          # Extract the pull request number from the output and print it
+          pr_number=$(echo "$pr_output" | grep -oP '(?<=/pull/)\d+')
+          echo "Pull request created with number: $pr_number"
+          echo "pr_number=${pr_number}" >> $GITHUB_OUTPUT
 
 #      - name: Approve PR
 #        if: ${{ inputs.autoApproval == 'true' }}
