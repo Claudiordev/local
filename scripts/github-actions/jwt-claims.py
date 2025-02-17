@@ -3,7 +3,7 @@ import json
 import os
 import sys
 from ruamel.yaml import YAML
-import utils.logging as logging
+from utils.logging.logging_config import logger
 #sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 class JwtClaims(object):
