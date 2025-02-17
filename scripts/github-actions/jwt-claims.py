@@ -37,7 +37,10 @@ class JwtClaims(object):
         return processed_string
 
     def loadTemplate(self, kustomization_path):
-        # open the yaml file for reading and writing
+        """
+            Open the yaml file for reading and writing
+
+         """
         logger.info(f"Loading the kustomization data from {kustomization_path}.")
 
         with open(kustomization_path, "r+") as f:
