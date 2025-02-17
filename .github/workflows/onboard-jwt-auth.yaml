@@ -32,19 +32,6 @@ jobs:
               echo "Vault environment $vaultEnvironment is not supported."
           fi
 
-      - name: Generate token
-        id: generate_token
-        uses: getsentry/action-github-app-token@v2
-        with:
-          app_id: ${{ secrets.CENTRAL_VAULT_ENTERPRISE_APP_ID_GH }}
-          private_key: ${{ secrets.CENTRAL_VAULT_ENTERPRISE_APP_KEY_GH }}
-
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout repo
-        uses: actions/checkout@v3
-        env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-
       - name: Checkout branch
         id: checkout-branch
         run: |
@@ -57,7 +44,7 @@ jobs:
 
           # Step 2: Create the feature branch from main
           echo "Creating the feature branch."
-          git checkout -b ${{ inputs.system_name }}-jwt-claim
+          git checkout -b ${{ inputs.vault_engine }}-jwt-claim
 
       # Install python packages
       - name: Install packages
