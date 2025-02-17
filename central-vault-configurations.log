@@ -1,0 +1,95 @@
+2025-02-17 11:22:58,980 - ERROR - An error occurred: list index out of range
+2025-02-17 11:22:58,980 - ERROR - An error occurred: list index out of range
+2025-02-17 11:23:01,439 - ERROR - An error occurred: list index out of range
+2025-02-17 11:23:01,439 - ERROR - An error occurred: list index out of range
+2025-02-17 11:23:02,618 - ERROR - An error occurred: list index out of range
+2025-02-17 11:23:02,618 - ERROR - An error occurred: list index out of range
+2025-02-17 11:28:07,982 - ERROR - An error occurred: list index out of range
+2025-02-17 11:28:07,982 - ERROR - An error occurred: list index out of range
+2025-02-17 11:28:53,859 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 11:28:53,859 - ERROR - An error occurred: 'JwtClaims' object has no attribute '_claimPathExists'
+2025-02-17 11:28:53,859 - ERROR - An error occurred: 'JwtClaims' object has no attribute '_claimPathExists'
+2025-02-17 11:34:16,735 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 11:34:16,735 - INFO - The directory for the claim efc does not exist.
+2025-02-17 11:34:16,735 - INFO - Creating the directory efc.
+2025-02-17 13:17:35,589 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:17:35,590 - INFO - The directory for the claim efc exists.
+2025-02-17 13:17:35,590 - INFO - The claim efc will be created.
+2025-02-17 13:17:35,590 - INFO - Loading the kustomization data from templates/jwt-internal-group-claim.yaml.
+2025-02-17 13:17:35,593 - INFO - Updating the claim details.
+2025-02-17 13:17:35,593 - ERROR - An error occurred: unsupported operand type(s) for -: 'str' and 'str'
+2025-02-17 13:17:35,593 - ERROR - An error occurred: unsupported operand type(s) for -: 'str' and 'str'
+2025-02-17 13:18:09,660 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:18:09,661 - INFO - The directory for the claim efc exists.
+2025-02-17 13:18:09,661 - INFO - The claim efc will be created.
+2025-02-17 13:18:09,661 - INFO - Loading the kustomization data from templates/jwt-internal-group-claim.yaml.
+2025-02-17 13:18:09,663 - INFO - Updating the claim details.
+2025-02-17 13:18:09,663 - INFO - Updating the efc/efc.yaml
+2025-02-17 13:18:09,664 - INFO - JWT Internal Group Claim saved successfully.
+2025-02-17 13:18:09,664 - INFO - ---------------------------------
+2025-02-17 13:18:40,453 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:18:40,453 - INFO - The directory for the claim efc exists.
+2025-02-17 13:18:40,453 - INFO - The claim efc will be created.
+2025-02-17 13:18:40,453 - INFO - Loading the kustomization data from templates/jwt-internal-group-claim.yaml.
+2025-02-17 13:18:40,455 - INFO - Updating the claim details.
+2025-02-17 13:18:40,456 - INFO - Updating the efc/efc.yaml
+2025-02-17 13:18:40,457 - INFO - JWT Internal Group Claim saved successfully.
+2025-02-17 13:18:40,457 - INFO - ---------------------------------
+2025-02-17 13:22:28,362 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:22:28,363 - INFO - The directory for the claim efc exists.
+2025-02-17 13:22:28,363 - INFO - The claim for efc exists, updating.
+2025-02-17 13:22:28,363 - INFO - Updating the claim details.
+2025-02-17 13:22:28,363 - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2025-02-17 13:22:28,363 - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2025-02-17 13:22:32,820 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:22:32,820 - INFO - The directory for the claim efc exists.
+2025-02-17 13:22:32,821 - INFO - The claim for efc exists, updating.
+2025-02-17 13:22:32,821 - INFO - Updating the claim details.
+2025-02-17 13:22:32,821 - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2025-02-17 13:22:32,821 - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2025-02-17 13:23:05,321 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:23:05,321 - INFO - The directory for the claim efc exists.
+2025-02-17 13:23:05,321 - INFO - The claim for efc exists, updating.
+2025-02-17 13:23:05,321 - INFO - Updating the claim details.
+2025-02-17 13:23:05,321 - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2025-02-17 13:23:05,321 - ERROR - An error occurred: 'NoneType' object is not subscriptable
+2025-02-17 13:24:15,399 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:24:15,399 - INFO - The directory for the claim efc exists.
+2025-02-17 13:24:15,400 - INFO - The claim for efc exists, updating.
+2025-02-17 13:24:15,400 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt/efc/efc.yaml.
+2025-02-17 13:24:15,401 - INFO - Updating the claim details.
+2025-02-17 13:24:15,401 - INFO - Updating the efc/efc.yaml
+2025-02-17 13:24:15,402 - INFO - JWT Internal Group Claim saved successfully.
+2025-02-17 13:24:15,402 - INFO - ---------------------------------
+2025-02-17 13:25:00,420 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:25:00,421 - INFO - The directory for the claim efc exists.
+2025-02-17 13:25:00,421 - INFO - The claim for efc exists, updating.
+2025-02-17 13:25:00,421 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt/efc/efc.yaml.
+2025-02-17 13:25:00,425 - INFO - Updating the claim details.
+2025-02-17 13:25:00,425 - INFO - Updating the efc/efc.yaml
+2025-02-17 13:25:00,426 - INFO - JWT Internal Group Claim saved successfully.
+2025-02-17 13:25:00,426 - INFO - ---------------------------------
+2025-02-17 13:25:41,971 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:25:41,971 - INFO - The directory for the claim efc exists.
+2025-02-17 13:25:41,971 - INFO - The claim for efc exists, updating.
+2025-02-17 13:25:41,971 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt/efc/efc.yaml.
+2025-02-17 13:25:41,973 - INFO - Updating the claim details.
+2025-02-17 13:25:41,973 - INFO - Updating the efc/efc.yaml
+2025-02-17 13:25:41,974 - INFO - JWT Internal Group Claim saved successfully.
+2025-02-17 13:25:41,974 - INFO - ---------------------------------
+2025-02-17 13:25:43,383 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:25:43,383 - INFO - The directory for the claim efc exists.
+2025-02-17 13:25:43,383 - INFO - The claim for efc exists, updating.
+2025-02-17 13:25:43,383 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt/efc/efc.yaml.
+2025-02-17 13:25:43,385 - INFO - Updating the claim details.
+2025-02-17 13:25:43,385 - INFO - Updating the efc/efc.yaml
+2025-02-17 13:25:43,386 - INFO - JWT Internal Group Claim saved successfully.
+2025-02-17 13:25:43,386 - INFO - ---------------------------------
+2025-02-17 13:25:56,978 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt
+2025-02-17 13:25:56,979 - INFO - The directory for the claim efc exists.
+2025-02-17 13:25:56,979 - INFO - The claim for efc exists, updating.
+2025-02-17 13:25:56,979 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/qa/auth-methods/jwt/efc/efc.yaml.
+2025-02-17 13:25:56,980 - INFO - Updating the claim details.
+2025-02-17 13:25:56,980 - INFO - Updating the efc/efc.yaml
+2025-02-17 13:25:56,981 - INFO - JWT Internal Group Claim saved successfully.
+2025-02-17 13:25:56,981 - INFO - ---------------------------------
