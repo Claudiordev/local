@@ -36,18 +36,11 @@ jobs:
               echo "Vault environment $vaultEnvironment is not supported."
           fi
 
-      - name: Generate token for repo operations
-        id: generate_token
-        uses: getsentry/action-github-app-token@v2
-        with:
-          app_id: '1148079'
-          private_key: 'SHA256:H+ei294TA5cPdAVEkof5J2KUYjLKxCZ6sbhyV8Iglvg='
-
       # Checkout the repository first
       - name: Checkout repo
         uses: actions/checkout@v3
         env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          GITHUB_TOKEN: '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'
 
       - name: Checkout branch
         id: checkout-branch
@@ -161,7 +154,7 @@ jobs:
       - name: Commit changes
         id: commit-changes
         env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          GITHUB_TOKEN: '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'
         run: |
           echo "Checking for changes to commit..."
           if [ -n "$(git status --porcelain)" ]; then
@@ -182,7 +175,7 @@ jobs:
       - name: Create a PR
         id: create-pr
         env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          GITHUB_TOKEN: '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'
         run: |
           git branch --show-current
           pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.vault_engine }} JWT claims" --body "Changes for adding/updating ${{ inputs.vault_engine }} JWT claims along with the group claims if needed.")
