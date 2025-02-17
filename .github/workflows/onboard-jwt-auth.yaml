@@ -101,8 +101,7 @@ jobs:
       - name: Create or update claims
         run: |
           echo "Running the KV2 secret engine claim script..."
-          if [ "${{ inputs.vault_environment }}" == "weu-qa" ]; then
-            python3 scripts/github-actions/jwt-claims.py 'create_secret_engine_claim' \
+          python3 scripts/github-actions/jwt-claims.py 'create_internal_group_claim' \
                                                   --vaultEnvironment '${{ inputs.vault_environment }}' \
                                                   --systemName '${{ inputs.system_name }}' \
                                                   --vaultEngine '${{ inputs.vault_engine }}' \
