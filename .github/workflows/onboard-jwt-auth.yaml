@@ -40,7 +40,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         env:
-          GITHUB_TOKEN: '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'
+          GITHUB_TOKEN: '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'
 
       - name: Checkout branch
         id: checkout-branch
@@ -154,7 +154,7 @@ jobs:
       - name: Commit changes
         id: commit-changes
         env:
-          GITHUB_TOKEN: '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'
+          GITHUB_TOKEN: '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'
         run: |
           echo "Checking for changes to commit..."
           if [ -n "$(git status --porcelain)" ]; then
@@ -175,7 +175,7 @@ jobs:
       - name: Create a PR
         id: create-pr
         env:
-          GITHUB_TOKEN: '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'
+          GITHUB_TOKEN: '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'
         run: |
           git branch --show-current
           pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.vault_engine }} JWT claims" --body "Changes for adding/updating ${{ inputs.vault_engine }} JWT claims along with the group claims if needed.")
