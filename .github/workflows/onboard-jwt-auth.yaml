@@ -67,7 +67,7 @@ jobs:
           repository: 'backstage-systems'
           depth: 1
           branch: 'main'
-          access-token: ${{ secrets.BPPCSMOP_PAT_REPO_FULL_ACCESS }}
+          access-token: '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'
 
       - name: Find the Entra ID group of the system owner
         run: |
