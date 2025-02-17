@@ -1,0 +1,14 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: InternalGroup
+metadata:
+  name: efc-group
+  namespace: vault-crossplane
+spec:
+  parameters:
+    commonConfig:
+      deletionPolicy: Delete
+      providerConfigRef: vault-provider-config
+    group:
+      name: efc-group
+      type: internal
+      policy: efc-policy
