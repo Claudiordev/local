@@ -152,7 +152,7 @@ jobs:
       - name: Commit changes
         id: commit-changes
         env:
-          GITHUB_TOKEN: "X"
+          GITHUB_TOKEN: "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"
         run: |
           echo "Checking for changes to commit..."
           if [ -n "$(git status --porcelain)" ]; then
