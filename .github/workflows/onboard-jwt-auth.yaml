@@ -98,17 +98,15 @@ jobs:
           fi
 
       # Runs a python script to create or update claim
-#      - name: Create or update claims
-#        run: |
-#          echo "Running the KV2 secret engine claim script..."
-#          if [ "${{ inputs.vaultEnvironment }}" == "weu-qa" ]; then
-#            python3 scripts/github-actions/kv2-secret-engine-claim.py 'create_secret_engine_claim' \
-#                                                  --vaultEnvironment '${{ inputs.vaultEnvironment }}' \
-#                                                  --systemName '${{ inputs.systemName }}' \
-#                                                  --ownerGroup "$ENTRA_ID_GROUP" \
-#                                                  --updatedBy '${{ inputs.updatedBy }}' \
-#                                                  --clientID 'a27a21ba-0882-4217-a06a-78858900893f' \
-#                                                  --clientSecret '${{ secrets.CENTRAL_VAULT_QA_CLIENT_SECRET_AZ }}'
+      - name: Create or update claims
+        run: |
+          echo "Running the KV2 secret engine claim script..."
+          if [ "${{ inputs.vault_environment }}" == "weu-qa" ]; then
+            python3 scripts/github-actions/jwt-claims.py 'create_secret_engine_claim' \
+                                                  --vaultEnvironment '${{ inputs.vault_environment }}' \
+                                                  --systemName '${{ inputs.system_name }}' \
+                                                  --vaultEngine '${{ inputs.vault_engine }}' \
+                                                  --managedEntities '${{ inputs.managed_entities }}'
 
 #          elif [ "${{ inputs.vaultEnvironment }}" == "weu-prod" ]; then
 #            python3 scripts/github-actions/kv2-secret-engine-claim.py 'create_secret_engine_claim' \
