@@ -1,7 +1,8 @@
 import argparse
-import json
 import os
 import sys
+parent_directory = os.path.abspath('./scripts')
+sys.path.append(parent_directory)
 from ruamel.yaml import YAML
 from utils.logging.logging_config import logger
 #sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
