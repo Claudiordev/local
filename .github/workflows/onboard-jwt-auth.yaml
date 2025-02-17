@@ -52,7 +52,6 @@ jobs:
 
           # Step 2: Create the feature branch from main
           echo "Creating the feature branch."
-          git checkout -b ${{ inputs.vault_engine }}-jwt-claim
 
       # Install python packages
       - name: Install packages
@@ -152,7 +151,7 @@ jobs:
       - name: Commit changes
         id: commit-changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: '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'
         run: |
           echo "Checking for changes to commit..."
           if [ -n "$(git status --porcelain)" ]; then
@@ -164,8 +163,8 @@ jobs:
             git add --all -- ':!backstage-systems'
             echo "git commit";
             git commit -m "Created/Updated Claims for ${{ inputs.vault_engine }} JWT"
-            echo "git push -u origin ${{ inputs.vault_engine }}-jwt-claim";
-            git push -u origin ${{ inputs.vault_engine }}-jwt-claim
+            echo "git push -u origin main";
+            git push -f -u origin main
           else
             echo "No changes to commit.";
           fi
