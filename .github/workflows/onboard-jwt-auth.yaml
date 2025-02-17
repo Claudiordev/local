@@ -32,6 +32,10 @@ jobs:
               echo "Vault environment $vaultEnvironment is not supported."
           fi
 
+      # Checkout the repository first
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Checkout branch
         id: checkout-branch
         run: |
