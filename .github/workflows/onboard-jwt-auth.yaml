@@ -17,6 +17,19 @@ on:
         description: "Entity to add JWT access to"
         required: true
         type: string
+      secret_paths:
+        description: "Engine path to add JWT access to"
+        required: false
+        type: string
+      updatedBy:
+        description: "User who triggered the workflow"
+        required: false
+        type: string
+      autoApproval:
+        description: "Auto approve the PR"
+        required: false
+        type: string
+        default: "true"
 
 jobs:
   create_claims:
