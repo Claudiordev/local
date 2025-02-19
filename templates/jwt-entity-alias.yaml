@@ -1,0 +1,14 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: EntityAlias
+metadata:
+  name: {systemName}
+spec:
+  parameters:
+    commonConfig:
+      providerConfigRef: vault-provider-config
+      deletionPolicy: Delete
+
+    alias:
+      name: {systemName}
+      mountAccessor: "auth_jwt_c706608c"
+      canonicalId: "8bcee5d9-f58f-9a19-cd6e-c630342f3a25"

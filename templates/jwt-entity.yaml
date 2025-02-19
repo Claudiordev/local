@@ -1,0 +1,11 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: Entity
+metadata:
+  name: {systemName}
+spec:
+  parameters:
+    commonConfig:
+      providerConfigRef: vault-provider-config
+      deletionPolicy: Delete
+    entity:
+      name: {systemName}

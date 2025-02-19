@@ -9,15 +9,11 @@ on:
         description: "Vault environment where system will be configured"
         required: true
         type: string
-      vault_engine:
-        description: "Name of the vault engine"
-        required: true
-        type: string
       system_name:
         description: "Name of the system"
         required: true
         type: string
-      managed_entities:
+      managed_identities:
         description: "Entity to add JWT access to"
         required: true
         type: string
@@ -103,11 +99,11 @@ jobs:
       - name: Create or update claims
         run: |
           echo "Running the KV2 secret engine claim script..."
-          python3 scripts/github-actions/jwt-claims.py 'create_internal_group_claim' \
+          python3 scripts/github-actions/jwt-claims.py 'create_claims' \
                                                   --vaultEnvironment '${{ inputs.vault_environment }}' \
                                                   --systemName '${{ inputs.system_name }}' \
                                                   --vaultEngine '${{ inputs.vault_engine }}' \
-                                                  --managedEntities '${{ inputs.managed_entities }}'
+                                                  --managedIdentities '${{ inputs.managed_identities }}'
 
 #          elif [ "${{ inputs.vaultEnvironment }}" == "weu-prod" ]; then
 #            python3 scripts/github-actions/kv2-secret-engine-claim.py 'create_secret_engine_claim' \

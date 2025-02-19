@@ -5,15 +5,14 @@ parent_directory = os.path.abspath('./scripts')
 sys.path.append(parent_directory)
 from ruamel.yaml import YAML
 from utils.logging.logging_config import logger
-#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 class JwtClaims(object):
 
-    def __init__(self, vaultEnvironment, systemName, vaultEngine, managedEntities):
+    def __init__(self, vaultEnvironment, systemName, managedIdentities, secretPaths):
         self.__vaultEnvironment = vaultEnvironment
         self.__systemName = systemName
-        self.__vaultEngine = vaultEngine
-        self.__managedEntities = managedEntities
+        self.__managedIdentities = managedIdentities
+        self.__secretPaths = secretPaths
         self.__kustomizationData= None
         self.__rootDirectory = os.getcwd()
         self.__yaml = YAML(typ=['rt', 'string'])
@@ -50,25 +49,25 @@ class JwtClaims(object):
         return
 
 
-    def processGroupClaim(self):
+    def processEntity(self,claim_type):
         """
             Generate internal group claim
         :return:
         """
-        cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/auth-methods/jwt"
+        cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/jwt"
         # logger.info the current working directory
         logger.info("Current working directory: {0}".format(cwd))
 
         claim_path = cwd + "/" + self.__systemName
-        claim_exists = False
+        claim_exists=False
 
         if not self._claimPathExists(claim_path):
             logger.info(f"The directory for the claim {self.__systemName} does not exist.")
             logger.info(f"Creating the directory {self.__systemName}.")
             os.makedirs(claim_path,exist_ok=True)
-            claim_path = f"{cwd}/{self.__systemName}/{self.__systemName}.yaml"
+            claim_path = f"{cwd}/{self.__systemName}/{self.__systemName}-{claim_type}.yaml"
         else:
-            claim_path = f"{cwd}/{self.__systemName}/{self.__systemName}.yaml"
+            claim_path = f"{cwd}/{self.__systemName}/{self.__systemName}-{claim_type}.yaml"
             logger.info(f"The directory for the claim {self.__systemName} exists.")
             claim_exists = self._claimPathExists(claim_path)
             if claim_exists:
@@ -76,52 +75,66 @@ class JwtClaims(object):
             else:
                 logger.info(f"The claim {self.__systemName} will be created.")
 
-        #Load template of Internal Group Claim
         kustomization_path = claim_path
         if not claim_exists:
-            kustomization_path = f"templates/jwt-internal-group-claim.yaml"
+            kustomization_path = f"templates/jwt-{claim_type}.yaml"
 
         self.loadTemplate(kustomization_path)
 
         logger.info("Updating the claim details.")
         # update the claim details
-        self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-group"
-        self.__kustomizationData["spec"]["parameters"]["group"]["name"] = self.__systemName + "-group"
-        self.__kustomizationData["spec"]["parameters"]["group"]["policy"] = self.__systemName + "-policy"
+        if claim_type == "internal-group":
+            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-group"
+            self.__kustomizationData["spec"]["parameters"]["group"]["name"] = self.__systemName + "-group"
+            self.__kustomizationData["spec"]["parameters"]["group"]["policy"] = self.__systemName + "-policy"
+        elif claim_type == "entity":
+            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-entity"
+            self.__kustomizationData["spec"]["parameters"]["entity"]["name"] = self.__systemName + "-entity"
+        elif claim_type == "entity-alias":
+            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-entity-alias"
+            self.__kustomizationData["spec"]["parameters"]["alias"]["name"] = self.__systemName + "-entity-alias"
+        elif claim_type == "vault-policy":
+            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-policy"
+            self.__kustomizationData["spec"]["parameters"]["policy"]["name"] = self.__systemName + "-policy"
+            self.__kustomizationData["spec"]["parameters"]["policy"]["secretEngineName"] = self.__systemName
 
         logger.info(f"Updating the {self.__systemName}/{self.__systemName}.yaml")
 
         with open(claim_path, "w") as f:
             self.__yaml.dump(self.__kustomizationData, f)
-            logger.info("JWT Internal Group Claim saved successfully.")
+            logger.info(f"JWT {claim_type} Claim saved successfully.")
             logger.info("---------------------------------")
 
         return
 
+
 if __name__ == "__main__":
     try:
         # Check if the command is valid and call the appropriate function
-        if sys.argv[1] == "create_internal_group_claim":
+        if sys.argv[1] == "create_claims":
 
             # Parse the command line arguments and create the group access configuration claim
             parser = argparse.ArgumentParser(description='Create internal group claim')
-            parser.add_argument('command', choices=['create_internal_group_claim'], help='Command to execute')
+            parser.add_argument('command', choices=['create_claims'], help='Command to execute')
             parser.add_argument('--vaultEnvironment', required=True, help="Vault Environment (weu-qa, weu-prod, weu-dev)")
             parser.add_argument('--systemName', required=True, help="Name of the System")
-            parser.add_argument('--vaultEngine', required=True, help="Vault Secret Engine")
-            parser.add_argument('--managedEntities', required=True, help='Managed entities')
+            parser.add_argument('--managedIdentities', required=True, help='Managed identities')
+            parser.add_argument('--secretPaths', required=False, help='Engine secret paths')
 
             args = parser.parse_args()
 
             vaultEnvironment = args.vaultEnvironment.strip()
-            vaultEngine = args.vaultEngine.strip()
             systemName = args.systemName.strip()
-            managedEntities = args.managedEntities.strip()
+            managedIdentities = args.managedIdentities.strip()
+            secretPaths = args.secretPaths.strip()
 
-            jwtClaims = JwtClaims(vaultEnvironment, systemName, vaultEngine, managedEntities)
+            jwtClaims = JwtClaims(vaultEnvironment, systemName, managedIdentities, secretPaths)
 
             # Process InternalGroupClaim
-            jwtClaims.processGroupClaim()
+            jwtClaims.processEntity('internal-group')
+            jwtClaims.processEntity('entity')
+            jwtClaims.processEntity('entity-alias')
+            jwtClaims.processEntity('vault-policy')
     except Exception as e:
         logger.error(f"An error occurred: {e}")
         sys.exit(1)
