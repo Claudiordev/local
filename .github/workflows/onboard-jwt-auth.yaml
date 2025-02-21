@@ -200,7 +200,7 @@ jobs:
                 <h3>Access Information:</h3>
                 <ul>
                   <li>Your specified managed identities have now read access to the above secret path(s).</li>
-                  <li>Access with JWT at:
+                  <li>Access IT with JWT at:
                     <ul>
                       <li>QA Environment: <a href="https://vault-qa.csm.volvocars.biz">https://vault-qa.csm.volvocars.biz</a></li>
                       <li>Production Environment: <a href="https://vault.csm.volvocars.biz">https://vault.csm.volvocars.biz</a></li>
