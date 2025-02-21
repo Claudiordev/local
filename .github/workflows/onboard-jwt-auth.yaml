@@ -130,7 +130,7 @@ jobs:
       - name: Commit changes
         id: commit-changes
         env:
-          GITHUB_TOKEN: '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'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Checking for changes to commit..."
           if [ -n "$(git status --porcelain)" ]; then
@@ -139,7 +139,7 @@ jobs:
             echo "git branch -l"
             git branch -l
             echo "git add";
-            git add --all -- ':!backstage-systems'
+            git add --all
             echo "git commit";
             git commit -m "Created/Updated Claims for ${{ inputs.system_name }} JWT"
             echo "git push -u origin ${{ inputs.system_name }}-jwt-claim";
@@ -151,7 +151,7 @@ jobs:
       - name: Create a PR
         id: create-pr
         env:
-          GITHUB_TOKEN: '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'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git branch --show-current
           pr_output=$(gh pr create --title "feat: Create/Update ${{ inputs.vault_engine }} JWT claims" --body "Changes for adding/updating ${{ inputs.vault_engine }} JWT claims along with the group claims if needed.")
