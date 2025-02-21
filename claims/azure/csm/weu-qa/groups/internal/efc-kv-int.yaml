@@ -1,0 +1,14 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: jwtAccessRequest
+metadata:
+  name: efc
+  namespace: vault-crossplane
+  annotations:
+    updatedBy: PDESHMUK@volvocars.com
+spec:
+  parameters:
+    systemName: efc
+    managedIdentities:
+    - ${{ toJson(parameters.managed_identities) }}
+    readSecretPaths:
+    - ''

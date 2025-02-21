@@ -2435,3 +2435,20 @@
 2025-02-21 11:57:35,789 - INFO - JWT internal-group Claim saved successfully.
 2025-02-21 11:57:35,789 - INFO - ---------------------------------
 2025-02-21 11:57:35,790 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-21 12:10:04,821 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 12:10:04,821 - INFO - The directory for the claim efc exists.
+2025-02-21 12:10:04,821 - INFO - The claim efc will be created.
+2025-02-21 12:10:04,821 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-21 12:10:04,824 - INFO - Updating the claim details.
+2025-02-21 12:10:04,824 - INFO - Updating the efc-kv-int.yaml
+2025-02-21 12:10:04,826 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 12:10:04,826 - INFO - ---------------------------------
+2025-02-21 12:10:04,826 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 12:10:04,827 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-21 12:10:04,827 - INFO - The directory for the claim efc does not exist.
+2025-02-21 12:10:04,827 - INFO - Creating the directory efc.
+2025-02-21 12:10:04,828 - INFO - Loading the kustomization data from templates/jwt-internal-group.yaml.
+2025-02-21 12:10:04,830 - INFO - Updating the claim details.
+2025-02-21 12:10:04,831 - INFO - JWT internal-group Claim saved successfully.
+2025-02-21 12:10:04,831 - INFO - ---------------------------------
+2025-02-21 12:10:04,831 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
