@@ -9,6 +9,7 @@ spec:
   parameters:
     systemName: efc
     managedIdentities:
-    - ${{ toJson(parameters.managed_identities) }}
+    - b1129a71-c858-428d-ac91-38653aa612c2
+    - b1129a71-c858-428d-ac91-38653aa612c1
     readSecretPaths:
     - ''
