@@ -2469,3 +2469,20 @@
 2025-02-21 12:29:51,353 - INFO - JWT internal-group Claim saved successfully.
 2025-02-21 12:29:51,353 - INFO - ---------------------------------
 2025-02-21 12:29:51,353 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-21 12:40:30,577 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 12:40:30,577 - INFO - The directory for the claim efc exists.
+2025-02-21 12:40:30,577 - INFO - The claim for efc exists, updating.
+2025-02-21 12:40:30,577 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-int.yaml.
+2025-02-21 12:40:30,580 - INFO - Updating the claim details.
+2025-02-21 12:40:30,580 - INFO - Updating the efc-kv-int.yaml
+2025-02-21 12:40:30,581 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 12:40:30,581 - INFO - ---------------------------------
+2025-02-21 12:40:30,581 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 12:40:30,583 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-21 12:40:30,583 - INFO - The directory for the claim efc exists.
+2025-02-21 12:40:30,583 - INFO - The claim for efc exists, updating.
+2025-02-21 12:40:30,583 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-int.yaml.
+2025-02-21 12:40:30,585 - INFO - Updating the claim details.
+2025-02-21 12:40:30,586 - INFO - JWT internal-group Claim saved successfully.
+2025-02-21 12:40:30,587 - INFO - ---------------------------------
+2025-02-21 12:40:30,587 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
