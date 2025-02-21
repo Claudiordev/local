@@ -14,7 +14,7 @@ on:
         required: true
         type: string
       managed_identities:
-        description: "Entity to add JWT access to"
+        description: "Identity to add JWT access to"
         required: true
         type: string
       secret_paths:
@@ -23,7 +23,7 @@ on:
         type: string
       updatedBy:
         description: "User who triggered the workflow"
-        required: false
+        required: true
         type: string
       autoApproval:
         description: "Auto approve the PR"
