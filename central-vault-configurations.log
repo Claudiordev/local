@@ -2349,3 +2349,21 @@
 2025-02-21 09:20:13,308 - INFO - JWT internal-group Claim saved successfully.
 2025-02-21 09:20:13,308 - INFO - ---------------------------------
 2025-02-21 09:20:13,309 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-21 10:08:54,345 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 10:08:54,346 - INFO - The directory for the claim csm exists.
+2025-02-21 10:08:54,346 - INFO - The claim for csm exists, updating.
+2025-02-21 10:08:54,346 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/csm-kv-int.yaml.
+2025-02-21 10:08:54,350 - INFO - Updating the claim details.
+2025-02-21 10:08:54,350 - INFO - Updating paths
+2025-02-21 10:08:54,351 - INFO - Updating the csm-kv-int.yaml
+2025-02-21 10:08:54,352 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 10:08:54,352 - INFO - ---------------------------------
+2025-02-21 10:08:54,353 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 10:08:54,354 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm
+2025-02-21 10:08:54,355 - INFO - The directory for the claim csm exists.
+2025-02-21 10:08:54,355 - INFO - The claim for csm exists, updating.
+2025-02-21 10:08:54,355 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm/csm-kv-int.yaml.
+2025-02-21 10:08:54,357 - INFO - Updating the claim details.
+2025-02-21 10:08:54,358 - INFO - JWT internal-group Claim saved successfully.
+2025-02-21 10:08:54,358 - INFO - ---------------------------------
+2025-02-21 10:08:54,358 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.

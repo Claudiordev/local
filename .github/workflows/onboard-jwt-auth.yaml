@@ -115,8 +115,8 @@ jobs:
           python3 scripts/github-actions/jwt-claims.py 'create_claims' \
                                                   --vaultEnvironment '${{ inputs.vault_environment }}' \
                                                   --systemName '${{ inputs.system_name }}' \
-                                                  --vaultEngine '${{ inputs.vault_engine }}' \
-                                                  --managedIdentities '${{ inputs.managed_identities }}'
+                                                  --managedIdentities '${{ inputs.managed_identities }}' \
+                                                  --secretPaths '${{ inputs.secret_paths }}'
 
 #          elif [ "${{ inputs.vaultEnvironment }}" == "weu-prod" ]; then
 #            python3 scripts/github-actions/kv2-secret-engine-claim.py 'create_secret_engine_claim' \
