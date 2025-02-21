@@ -49,7 +49,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         env:
-          GITHUB_TOKEN: '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'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout branch
         id: checkout-branch
@@ -74,15 +74,6 @@ jobs:
           pip3 install requests
           pip3 install pyGitHub
           pip3 install msal
-
-      - name: Clone Github Repo Action
-        uses: GuillaumeFalourd/clone-github-repo-action@v2.3
-        with:
-          owner: 'Claudiordev'
-          repository: 'local'
-          depth: 1
-          branch: 'main'
-          access-token: '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'
 
       # Runs a python script to create or update claim
       - name: Create or update claims
