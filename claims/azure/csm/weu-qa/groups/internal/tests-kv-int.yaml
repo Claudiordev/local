@@ -1,0 +1,15 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: jwtAccessRequest
+metadata:
+  name: tests
+  namespace: vault-crossplane
+  annotations:
+    updatedBy: PDESHMUK@volvocars.com
+spec:
+  parameters:
+    systemName: tests
+    managedIdentities:
+    - b1129a71-c858-428d-ac91-38653aa612c2
+    - b1129a71-c858-428d-ac91-38653aa612c1
+    readSecretPaths:
+    - example/example/example

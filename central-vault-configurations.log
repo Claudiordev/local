@@ -2486,3 +2486,20 @@
 2025-02-21 12:40:30,586 - INFO - JWT internal-group Claim saved successfully.
 2025-02-21 12:40:30,587 - INFO - ---------------------------------
 2025-02-21 12:40:30,587 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-21 12:42:01,366 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 12:42:01,366 - INFO - The directory for the claim tests exists.
+2025-02-21 12:42:01,366 - INFO - The claim tests will be created.
+2025-02-21 12:42:01,366 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-21 12:42:01,369 - INFO - Updating the claim details.
+2025-02-21 12:42:01,369 - INFO - Updating the tests-kv-int.yaml
+2025-02-21 12:42:01,370 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 12:42:01,370 - INFO - ---------------------------------
+2025-02-21 12:42:01,371 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 12:42:01,372 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/tests
+2025-02-21 12:42:01,372 - INFO - The directory for the claim tests does not exist.
+2025-02-21 12:42:01,372 - INFO - Creating the directory tests.
+2025-02-21 12:42:01,372 - INFO - Loading the kustomization data from templates/jwt-internal-group.yaml.
+2025-02-21 12:42:01,374 - INFO - Updating the claim details.
+2025-02-21 12:42:01,375 - INFO - JWT internal-group Claim saved successfully.
+2025-02-21 12:42:01,376 - INFO - ---------------------------------
+2025-02-21 12:42:01,376 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
