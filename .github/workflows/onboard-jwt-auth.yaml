@@ -167,5 +167,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Merging PR..."
-          gh pr merge ${{ steps.create-pr.outputs.pr_number }} --auto
+          gh pr merge ${{ steps.create-pr.outputs.pr_number }} --merge --auto
           echo "PR merged successfully!"
