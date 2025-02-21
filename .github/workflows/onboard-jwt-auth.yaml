@@ -84,30 +84,6 @@ jobs:
           branch: 'main'
           access-token: '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'
 
-      - name: Find the Entra ID group of the system owner
-        run: |
-          cd backstage-systems
-          systemName=${{ inputs.system_name }}
-          systemName=${systemName%-kv}
-          ENTRA_ID_GROUP=$(yq 'select(.kind == "System") | .spec.owner' "systems/$systemName/system.yaml")
-          if [ -z "$ENTRA_ID_GROUP" ]; then
-            echo "Error: ENTRA_ID_GROUP is blank. Owner not present for the system."
-            exit 1
-          fi
-          ENTRA_ID_GROUP=$(echo "$ENTRA_ID_GROUP" | xargs)
-          echo "Owner Entra ID group of the system: $ENTRA_ID_GROUP"
-          # Set the Entra ID group as an environment variable
-          echo "ENTRA_ID_GROUP=${ENTRA_ID_GROUP}" >> $GITHUB_ENV
-
-
-      # Add validation for ENTRA_ID_GROUP
-      - name: Validate ENTRA_ID_GROUP
-        run: |
-          if [ -z "$ENTRA_ID_GROUP" ]; then
-            echo "Error: ENTRA_ID_GROUP is blank. Owner not present for the system."
-            exit 1
-          fi
-
       # Runs a python script to create or update claim
       - name: Create or update claims
         run: |
@@ -175,8 +151,8 @@ jobs:
             git add --all -- ':!backstage-systems'
             echo "git commit";
             git commit -m "Created/Updated Claims for ${{ inputs.system_name }} JWT"
-            echo "git push -u origin ${{ inputs.vault_engine }}-jwt-claim";
-            git push -u origin ${{ inputs.vault_engine }}-jwt-claim
+            echo "git push -u origin ${{ inputs.system_name }}-jwt-claim";
+            git push -u origin ${{ inputs.system_name }}-jwt-claim
           else
             echo "No changes to commit.";
           fi
