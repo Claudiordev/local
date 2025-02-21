@@ -78,8 +78,8 @@ jobs:
       - name: Clone Github Repo Action
         uses: GuillaumeFalourd/clone-github-repo-action@v2.3
         with:
-          owner: 'volvo-cars'
-          repository: 'backstage-systems'
+          owner: 'Claudiordev'
+          repository: 'local'
           depth: 1
           branch: 'main'
           access-token: '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'
