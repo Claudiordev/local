@@ -731,3 +731,1621 @@
 2025-02-19 14:24:10,012 - INFO - Updating the efc/efc.yaml
 2025-02-19 14:24:10,013 - INFO - JWT vault-policy Claim saved successfully.
 2025-02-19 14:24:10,013 - INFO - ---------------------------------
+2025-02-19 14:27:53,057 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-19 14:27:53,057 - INFO - The directory for the claim efc exists.
+2025-02-19 14:27:53,057 - INFO - The claim for efc exists, updating.
+2025-02-19 14:27:53,057 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc-internal-group.yaml.
+2025-02-19 14:27:53,059 - INFO - Updating the claim details.
+2025-02-19 14:27:53,059 - INFO - Updating the efc/efc.yaml
+2025-02-19 14:27:53,060 - INFO - JWT internal-group Claim saved successfully.
+2025-02-19 14:27:53,060 - INFO - ---------------------------------
+2025-02-19 14:27:53,060 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-19 14:27:53,061 - INFO - The directory for the claim efc exists.
+2025-02-19 14:27:53,061 - INFO - The claim for efc exists, updating.
+2025-02-19 14:27:53,061 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc-entity.yaml.
+2025-02-19 14:27:53,063 - INFO - Updating the claim details.
+2025-02-19 14:27:53,063 - INFO - Updating the efc/efc.yaml
+2025-02-19 14:27:53,064 - INFO - JWT entity Claim saved successfully.
+2025-02-19 14:27:53,064 - INFO - ---------------------------------
+2025-02-19 14:27:53,064 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-19 14:27:53,064 - INFO - The directory for the claim efc exists.
+2025-02-19 14:27:53,064 - INFO - The claim for efc exists, updating.
+2025-02-19 14:27:53,064 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc-entity-alias.yaml.
+2025-02-19 14:27:53,069 - INFO - Updating the claim details.
+2025-02-19 14:27:53,070 - INFO - Updating the efc/efc.yaml
+2025-02-19 14:27:53,070 - INFO - JWT entity-alias Claim saved successfully.
+2025-02-19 14:27:53,070 - INFO - ---------------------------------
+2025-02-19 14:27:53,071 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-19 14:27:53,071 - INFO - The directory for the claim efc exists.
+2025-02-19 14:27:53,071 - INFO - The claim for efc exists, updating.
+2025-02-19 14:27:53,071 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc-vault-policy.yaml.
+2025-02-19 14:27:53,074 - INFO - Updating the claim details.
+2025-02-19 14:27:53,074 - INFO - Updating the efc/efc.yaml
+2025-02-19 14:27:53,075 - INFO - JWT vault-policy Claim saved successfully.
+2025-02-19 14:27:53,075 - INFO - ---------------------------------
+2025-02-19 14:29:24,717 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-19 14:29:24,717 - INFO - The directory for the claim efc exists.
+2025-02-19 14:29:24,717 - INFO - The claim for efc exists, updating.
+2025-02-19 14:29:24,717 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc-internal-group.yaml.
+2025-02-19 14:29:24,719 - INFO - Updating the claim details.
+2025-02-19 14:29:24,719 - INFO - Updating the efc/efc.yaml
+2025-02-19 14:29:24,720 - INFO - JWT internal-group Claim saved successfully.
+2025-02-19 14:29:24,720 - INFO - ---------------------------------
+2025-02-19 14:29:24,720 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-19 14:29:24,720 - INFO - The directory for the claim efc exists.
+2025-02-19 14:29:24,720 - INFO - The claim for efc exists, updating.
+2025-02-19 14:29:24,721 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc-entity.yaml.
+2025-02-19 14:29:24,722 - INFO - Updating the claim details.
+2025-02-19 14:29:24,722 - INFO - Updating the efc/efc.yaml
+2025-02-19 14:29:24,722 - INFO - JWT entity Claim saved successfully.
+2025-02-19 14:29:24,722 - INFO - ---------------------------------
+2025-02-19 14:29:24,723 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-19 14:29:24,723 - INFO - The directory for the claim efc exists.
+2025-02-19 14:29:24,723 - INFO - The claim for efc exists, updating.
+2025-02-19 14:29:24,723 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc-entity-alias.yaml.
+2025-02-19 14:29:24,725 - INFO - Updating the claim details.
+2025-02-19 14:29:24,725 - INFO - Updating the efc/efc.yaml
+2025-02-19 14:29:24,726 - INFO - JWT entity-alias Claim saved successfully.
+2025-02-19 14:29:24,726 - INFO - ---------------------------------
+2025-02-19 14:29:24,726 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-19 14:29:24,726 - INFO - The directory for the claim efc exists.
+2025-02-19 14:29:24,726 - INFO - The claim for efc exists, updating.
+2025-02-19 14:29:24,726 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc-vault-policy.yaml.
+2025-02-19 14:29:24,728 - INFO - Updating the claim details.
+2025-02-19 14:29:24,728 - INFO - Updating the efc/efc.yaml
+2025-02-19 14:29:24,729 - INFO - JWT vault-policy Claim saved successfully.
+2025-02-19 14:29:24,729 - INFO - ---------------------------------
+2025-02-20 12:38:16,744 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-20 12:38:16,746 - INFO - The directory for the claim efc exists.
+2025-02-20 12:38:16,746 - INFO - The claim efc will be created.
+2025-02-20 12:38:16,746 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 12:38:16,749 - INFO - Updating the claim details.
+2025-02-20 12:38:16,749 - INFO - Updating the efc/efc.yaml
+2025-02-20 12:38:16,752 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 12:38:16,752 - INFO - ---------------------------------
+2025-02-20 12:48:32,149 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt
+2025-02-20 12:48:32,150 - INFO - The directory for the claim efc exists.
+2025-02-20 12:48:32,150 - INFO - The claim for efc exists, updating.
+2025-02-20 12:48:32,150 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/jwt/efc/efc.yaml.
+2025-02-20 12:48:32,156 - INFO - Updating the claim details.
+2025-02-20 12:48:32,157 - INFO - Updating the efc/efc.yaml
+2025-02-20 12:48:32,162 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 12:48:32,162 - INFO - ---------------------------------
+2025-02-20 14:38:18,302 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:38:18,304 - INFO - The directory for the claim efc does not exist.
+2025-02-20 14:38:18,304 - INFO - Creating the directory efc.
+2025-02-20 14:38:18,316 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 14:38:18,323 - INFO - Updating the claim details.
+2025-02-20 14:38:18,323 - INFO - Updating the efc.yaml
+2025-02-20 14:38:18,327 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:38:18,327 - INFO - ---------------------------------
+2025-02-20 14:38:53,284 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:38:53,285 - INFO - The directory for the claim efc exists.
+2025-02-20 14:38:53,285 - INFO - The claim for efc exists, updating.
+2025-02-20 14:38:53,285 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc.yaml.
+2025-02-20 14:38:53,290 - INFO - Updating the claim details.
+2025-02-20 14:38:53,290 - INFO - Updating the efc.yaml
+2025-02-20 14:38:53,294 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:38:53,294 - INFO - ---------------------------------
+2025-02-20 14:39:06,641 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:39:06,641 - INFO - The directory for the claim efc does not exist.
+2025-02-20 14:39:06,641 - INFO - Creating the directory efc.
+2025-02-20 14:39:06,654 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 14:39:06,658 - INFO - Updating the claim details.
+2025-02-20 14:39:06,659 - INFO - Updating the efc.yaml
+2025-02-20 14:39:06,661 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:39:06,662 - INFO - ---------------------------------
+2025-02-20 14:39:41,464 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:39:41,464 - INFO - The directory for the claim efc exists.
+2025-02-20 14:39:41,465 - INFO - The claim for efc exists, updating.
+2025-02-20 14:39:41,466 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc.yaml.
+2025-02-20 14:39:41,477 - INFO - Updating the claim details.
+2025-02-20 14:39:41,477 - INFO - Updating the efc.yaml
+2025-02-20 14:39:41,482 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:39:41,482 - INFO - ---------------------------------
+2025-02-20 14:39:54,440 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:39:54,440 - INFO - The directory for the claim efc exists.
+2025-02-20 14:39:54,440 - INFO - The claim efc will be created.
+2025-02-20 14:39:54,440 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 14:39:54,443 - INFO - Updating the claim details.
+2025-02-20 14:39:54,443 - INFO - Updating the efc.yaml
+2025-02-20 14:39:54,445 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:39:54,445 - INFO - ---------------------------------
+2025-02-20 14:40:50,674 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:40:50,674 - INFO - The directory for the claim efc exists.
+2025-02-20 14:40:50,674 - INFO - The claim for efc exists, updating.
+2025-02-20 14:40:50,674 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc.yaml.
+2025-02-20 14:40:50,679 - INFO - Updating the claim details.
+2025-02-20 14:40:50,679 - INFO - Updating the efc.yaml
+2025-02-20 14:40:50,681 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:40:50,681 - INFO - ---------------------------------
+2025-02-20 14:41:02,433 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:41:02,434 - INFO - The directory for the claim efc exists.
+2025-02-20 14:41:02,434 - INFO - The claim for efc exists, updating.
+2025-02-20 14:41:02,435 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc.yaml.
+2025-02-20 14:41:02,439 - INFO - Updating the claim details.
+2025-02-20 14:41:02,439 - INFO - Updating the efc.yaml
+2025-02-20 14:41:02,443 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:41:02,443 - INFO - ---------------------------------
+2025-02-20 14:41:07,713 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:41:07,714 - INFO - The directory for the claim efc exists.
+2025-02-20 14:41:07,714 - INFO - The claim for efc exists, updating.
+2025-02-20 14:41:07,714 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc.yaml.
+2025-02-20 14:41:07,719 - INFO - Updating the claim details.
+2025-02-20 14:41:07,719 - INFO - Updating the efc.yaml
+2025-02-20 14:41:07,723 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:41:07,724 - INFO - ---------------------------------
+2025-02-20 14:54:57,801 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:54:57,802 - INFO - The directory for the claim efc exists.
+2025-02-20 14:54:57,803 - INFO - The claim efc will be created.
+2025-02-20 14:54:57,804 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 14:54:57,810 - INFO - Updating the claim details.
+2025-02-20 14:54:57,810 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 14:54:57,813 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:54:57,814 - INFO - ---------------------------------
+2025-02-20 14:55:20,667 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:55:20,667 - INFO - The directory for the claim efc exists.
+2025-02-20 14:55:20,668 - INFO - The claim efc will be created.
+2025-02-20 14:55:20,668 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 14:55:20,677 - INFO - Updating the claim details.
+2025-02-20 14:55:20,677 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 14:55:20,680 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:55:20,680 - INFO - ---------------------------------
+2025-02-20 14:56:17,035 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 14:56:17,036 - INFO - The directory for the claim efc exists.
+2025-02-20 14:56:17,036 - INFO - The claim for efc exists, updating.
+2025-02-20 14:56:17,036 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 14:56:17,045 - INFO - Updating the claim details.
+2025-02-20 14:56:17,046 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 14:56:17,051 - INFO - JWT Access Request Claim saved successfully.
+2025-02-20 14:56:17,051 - INFO - ---------------------------------
+2025-02-20 19:25:32,348 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:25:32,350 - INFO - The directory for the claim efc does not exist.
+2025-02-20 19:25:32,350 - INFO - Creating the directory efc.
+2025-02-20 19:25:32,352 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:25:32,357 - INFO - Updating the claim details.
+2025-02-20 19:25:32,357 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:25:32,361 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:25:32,361 - INFO - ---------------------------------
+2025-02-20 19:26:32,794 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:26:32,794 - INFO - The directory for the claim efc exists.
+2025-02-20 19:26:32,794 - INFO - The claim for efc exists, updating.
+2025-02-20 19:26:32,794 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:26:32,799 - INFO - Updating the claim details.
+2025-02-20 19:26:32,799 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:26:32,801 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:26:32,801 - INFO - ---------------------------------
+2025-02-20 19:26:32,802 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:26:32,802 - INFO - The directory for the claim efc does not exist.
+2025-02-20 19:26:32,802 - INFO - Creating the directory efc.
+2025-02-20 19:26:32,803 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:26:32,806 - INFO - Updating the claim details.
+2025-02-20 19:26:32,806 - ERROR - An error occurred: 'group'
+2025-02-20 19:26:32,806 - ERROR - An error occurred: 'group'
+2025-02-20 19:27:24,900 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:27:24,900 - INFO - The directory for the claim efc exists.
+2025-02-20 19:27:24,900 - INFO - The claim for efc exists, updating.
+2025-02-20 19:27:24,900 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:27:24,903 - INFO - Updating the claim details.
+2025-02-20 19:27:24,903 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:27:24,905 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:27:24,905 - INFO - ---------------------------------
+2025-02-20 19:27:24,905 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:27:24,905 - INFO - The directory for the claim efc exists.
+2025-02-20 19:27:24,905 - INFO - The claim efc will be created.
+2025-02-20 19:27:24,905 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:27:24,908 - INFO - Updating the claim details.
+2025-02-20 19:27:24,909 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:27:24,909 - INFO - ---------------------------------
+2025-02-20 19:27:45,282 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:27:45,283 - INFO - The directory for the claim efc exists.
+2025-02-20 19:27:45,283 - INFO - The claim for efc exists, updating.
+2025-02-20 19:27:45,283 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:27:45,288 - INFO - Updating the claim details.
+2025-02-20 19:27:45,288 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:27:45,292 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:27:45,292 - INFO - ---------------------------------
+2025-02-20 19:27:45,293 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:27:45,293 - INFO - The directory for the claim efc exists.
+2025-02-20 19:27:45,293 - INFO - The claim for efc exists, updating.
+2025-02-20 19:27:45,293 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:27:45,296 - INFO - Updating the claim details.
+2025-02-20 19:27:45,298 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:27:45,298 - INFO - ---------------------------------
+2025-02-20 19:27:56,027 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:27:56,027 - INFO - The directory for the claim efc exists.
+2025-02-20 19:27:56,028 - INFO - The claim for efc exists, updating.
+2025-02-20 19:27:56,028 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:27:56,036 - INFO - Updating the claim details.
+2025-02-20 19:27:56,036 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:27:56,038 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:27:56,039 - INFO - ---------------------------------
+2025-02-20 19:27:56,039 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:27:56,039 - INFO - The directory for the claim efc exists.
+2025-02-20 19:27:56,039 - INFO - The claim efc will be created.
+2025-02-20 19:27:56,040 - INFO - Loading the kustomization data from templates/jwt-internal-group.yaml.
+2025-02-20 19:27:56,043 - INFO - Updating the claim details.
+2025-02-20 19:27:56,044 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:27:56,045 - INFO - ---------------------------------
+2025-02-20 19:28:08,820 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:28:08,820 - INFO - The directory for the claim efc exists.
+2025-02-20 19:28:08,820 - INFO - The claim for efc exists, updating.
+2025-02-20 19:28:08,820 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:28:08,824 - INFO - Updating the claim details.
+2025-02-20 19:28:08,826 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:28:08,830 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:28:08,830 - INFO - ---------------------------------
+2025-02-20 19:28:08,830 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:28:08,831 - INFO - The directory for the claim efc exists.
+2025-02-20 19:28:08,831 - INFO - The claim for efc exists, updating.
+2025-02-20 19:28:08,831 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:28:08,835 - INFO - Updating the claim details.
+2025-02-20 19:28:08,836 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:28:08,836 - INFO - ---------------------------------
+2025-02-20 19:28:23,462 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:28:23,463 - INFO - The directory for the claim efc does not exist.
+2025-02-20 19:28:23,463 - INFO - Creating the directory efc.
+2025-02-20 19:28:23,465 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:28:23,474 - INFO - Updating the claim details.
+2025-02-20 19:28:23,474 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:28:23,477 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:28:23,477 - INFO - ---------------------------------
+2025-02-20 19:28:23,478 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:28:23,478 - INFO - The directory for the claim efc does not exist.
+2025-02-20 19:28:23,478 - INFO - Creating the directory efc.
+2025-02-20 19:28:23,479 - INFO - Loading the kustomization data from templates/jwt-internal-group.yaml.
+2025-02-20 19:28:23,484 - INFO - Updating the claim details.
+2025-02-20 19:28:23,487 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:28:23,487 - INFO - ---------------------------------
+2025-02-20 19:28:51,031 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:28:51,032 - INFO - The directory for the claim efc exists.
+2025-02-20 19:28:51,033 - INFO - The claim for efc exists, updating.
+2025-02-20 19:28:51,034 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:28:51,040 - INFO - Updating the claim details.
+2025-02-20 19:28:51,040 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:28:51,042 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:28:51,043 - INFO - ---------------------------------
+2025-02-20 19:28:51,043 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:28:51,043 - INFO - The directory for the claim efc exists.
+2025-02-20 19:28:51,043 - INFO - The claim for efc exists, updating.
+2025-02-20 19:28:51,043 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:28:51,046 - INFO - Updating the claim details.
+2025-02-20 19:28:51,048 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:28:51,049 - INFO - ---------------------------------
+2025-02-20 19:29:03,213 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:29:03,213 - INFO - The directory for the claim efc exists.
+2025-02-20 19:29:03,213 - INFO - The claim for efc exists, updating.
+2025-02-20 19:29:03,213 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:29:03,217 - INFO - Updating the claim details.
+2025-02-20 19:29:03,218 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:29:03,223 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:29:03,224 - INFO - ---------------------------------
+2025-02-20 19:29:03,225 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:29:03,225 - INFO - The directory for the claim efc exists.
+2025-02-20 19:29:03,225 - INFO - The claim for efc exists, updating.
+2025-02-20 19:29:03,225 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:29:03,228 - INFO - Updating the claim details.
+2025-02-20 19:29:03,230 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:29:03,230 - INFO - ---------------------------------
+2025-02-20 19:29:06,528 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:29:06,528 - INFO - The directory for the claim efc exists.
+2025-02-20 19:29:06,528 - INFO - The claim for efc exists, updating.
+2025-02-20 19:29:06,528 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:29:06,537 - INFO - Updating the claim details.
+2025-02-20 19:29:06,538 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:29:06,545 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:29:06,546 - INFO - ---------------------------------
+2025-02-20 19:29:06,547 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:29:06,548 - INFO - The directory for the claim efc exists.
+2025-02-20 19:29:06,548 - INFO - The claim for efc exists, updating.
+2025-02-20 19:29:06,549 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:29:06,552 - INFO - Updating the claim details.
+2025-02-20 19:29:06,554 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:29:06,554 - INFO - ---------------------------------
+2025-02-20 19:35:49,365 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:35:49,365 - INFO - The directory for the claim efc exists.
+2025-02-20 19:35:49,365 - INFO - The claim for efc exists, updating.
+2025-02-20 19:35:49,365 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:35:49,368 - INFO - Updating the claim details.
+2025-02-20 19:35:49,368 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:35:49,372 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:35:49,374 - INFO - ---------------------------------
+2025-02-20 19:35:49,375 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:35:49,375 - INFO - The directory for the claim efc exists.
+2025-02-20 19:35:49,376 - INFO - The claim for efc exists, updating.
+2025-02-20 19:35:49,377 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:35:49,383 - INFO - Updating the claim details.
+2025-02-20 19:35:49,388 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:35:49,388 - INFO - ---------------------------------
+2025-02-20 19:35:59,522 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:35:59,522 - INFO - The directory for the claim efc exists.
+2025-02-20 19:35:59,523 - INFO - The claim for efc exists, updating.
+2025-02-20 19:35:59,523 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:35:59,526 - INFO - Updating the claim details.
+2025-02-20 19:35:59,527 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:35:59,529 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:35:59,529 - INFO - ---------------------------------
+2025-02-20 19:35:59,529 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:35:59,530 - INFO - The directory for the claim efc exists.
+2025-02-20 19:35:59,530 - INFO - The claim for efc exists, updating.
+2025-02-20 19:35:59,530 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:35:59,537 - INFO - Updating the claim details.
+2025-02-20 19:35:59,540 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:35:59,540 - INFO - ---------------------------------
+2025-02-20 19:36:29,262 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:36:29,263 - INFO - The directory for the claim efc exists.
+2025-02-20 19:36:29,263 - INFO - The claim for efc exists, updating.
+2025-02-20 19:36:29,263 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:36:29,267 - INFO - Updating the claim details.
+2025-02-20 19:36:29,268 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:36:29,271 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:36:29,272 - INFO - ---------------------------------
+2025-02-20 19:36:29,272 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:36:29,272 - INFO - The directory for the claim efc exists.
+2025-02-20 19:36:29,273 - INFO - The claim for efc exists, updating.
+2025-02-20 19:36:29,273 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:36:29,276 - INFO - Updating the claim details.
+2025-02-20 19:36:29,278 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:36:29,278 - INFO - ---------------------------------
+2025-02-20 19:36:50,387 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:36:50,387 - INFO - The directory for the claim efc exists.
+2025-02-20 19:36:50,388 - INFO - The claim for efc exists, updating.
+2025-02-20 19:36:50,388 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:36:50,392 - INFO - Updating the claim details.
+2025-02-20 19:36:50,393 - INFO - ['b1129a71-c858-428d-ac91-38653aa612c2', 'b1129a71-c858-428d-ac91-38653aa612c1']
+2025-02-20 19:36:50,394 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:36:50,397 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:36:50,397 - INFO - ---------------------------------
+2025-02-20 19:36:50,397 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:36:50,397 - INFO - The directory for the claim efc exists.
+2025-02-20 19:36:50,397 - INFO - The claim for efc exists, updating.
+2025-02-20 19:36:50,397 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:36:50,400 - INFO - Updating the claim details.
+2025-02-20 19:36:50,401 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:36:50,401 - INFO - ---------------------------------
+2025-02-20 19:37:01,497 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:37:01,498 - INFO - The directory for the claim efc exists.
+2025-02-20 19:37:01,498 - INFO - The claim for efc exists, updating.
+2025-02-20 19:37:01,498 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:37:01,503 - INFO - Updating the claim details.
+2025-02-20 19:37:01,503 - INFO - ['b1129a71-c858-428d-ac91-38653aa612c2', 'b1129a71-c858-428d-ac91-38653aa612c1', ['b1129a71-c858-428d-ac91-38653aa612c2', 'b1129a71-c858-428d-ac91-38653aa612c1']]
+2025-02-20 19:37:01,504 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:37:01,507 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:37:01,508 - INFO - ---------------------------------
+2025-02-20 19:37:01,508 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:37:01,508 - INFO - The directory for the claim efc exists.
+2025-02-20 19:37:01,508 - INFO - The claim for efc exists, updating.
+2025-02-20 19:37:01,509 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:37:01,513 - INFO - Updating the claim details.
+2025-02-20 19:37:01,516 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:37:01,516 - INFO - ---------------------------------
+2025-02-20 19:37:30,781 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:37:30,781 - INFO - The directory for the claim efc exists.
+2025-02-20 19:37:30,781 - INFO - The claim for efc exists, updating.
+2025-02-20 19:37:30,781 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:37:30,786 - INFO - Updating the claim details.
+2025-02-20 19:37:30,786 - INFO - ['b1129a71-c858-428d-ac91-38653aa612c2', 'b1129a71-c858-428d-ac91-38653aa612c1', ['b1129a71-c858-428d-ac91-38653aa612c2', 'b1129a71-c858-428d-ac91-38653aa612c1'], ['b1129a71-c858-428d-ac91-38653aa612c2', 'b1129a71-c858-428d-ac91-38653aa612c1']]
+2025-02-20 19:37:30,787 - ERROR - An error occurred: CommentedSeq.insert() missing 1 required positional argument: 'val'
+2025-02-20 19:37:30,787 - ERROR - An error occurred: CommentedSeq.insert() missing 1 required positional argument: 'val'
+2025-02-20 19:40:26,019 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:40:26,019 - INFO - The directory for the claim efc exists.
+2025-02-20 19:40:26,019 - INFO - The claim efc will be created.
+2025-02-20 19:40:26,019 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:40:26,024 - INFO - Updating the claim details.
+2025-02-20 19:40:26,024 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'extend'
+2025-02-20 19:40:26,024 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'extend'
+2025-02-20 19:41:34,449 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:41:34,450 - INFO - The directory for the claim efc exists.
+2025-02-20 19:41:34,451 - INFO - The claim efc will be created.
+2025-02-20 19:41:34,452 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:41:34,456 - INFO - Updating the claim details.
+2025-02-20 19:41:34,457 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'append'
+2025-02-20 19:41:34,457 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'append'
+2025-02-20 19:41:36,025 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:41:36,026 - INFO - The directory for the claim efc exists.
+2025-02-20 19:41:36,026 - INFO - The claim efc will be created.
+2025-02-20 19:41:36,026 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:41:36,034 - INFO - Updating the claim details.
+2025-02-20 19:41:36,034 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'append'
+2025-02-20 19:41:36,034 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'append'
+2025-02-20 19:43:27,482 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:43:27,484 - INFO - The directory for the claim efc exists.
+2025-02-20 19:43:27,485 - INFO - The claim efc will be created.
+2025-02-20 19:43:27,486 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:43:27,491 - INFO - Updating the claim details.
+2025-02-20 19:43:27,491 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:43:27,495 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:43:27,495 - INFO - ---------------------------------
+2025-02-20 19:43:27,495 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:43:27,495 - INFO - The directory for the claim efc exists.
+2025-02-20 19:43:27,495 - INFO - The claim for efc exists, updating.
+2025-02-20 19:43:27,495 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:43:27,499 - INFO - Updating the claim details.
+2025-02-20 19:43:27,501 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:43:27,501 - INFO - ---------------------------------
+2025-02-20 19:43:37,067 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:43:37,067 - INFO - The directory for the claim efc exists.
+2025-02-20 19:43:37,067 - INFO - The claim for efc exists, updating.
+2025-02-20 19:43:37,068 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:43:37,075 - INFO - Updating the claim details.
+2025-02-20 19:43:37,076 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:43:37,081 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:43:37,082 - INFO - ---------------------------------
+2025-02-20 19:43:37,082 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:43:37,082 - INFO - The directory for the claim efc exists.
+2025-02-20 19:43:37,082 - INFO - The claim for efc exists, updating.
+2025-02-20 19:43:37,082 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:43:37,086 - INFO - Updating the claim details.
+2025-02-20 19:43:37,089 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:43:37,091 - INFO - ---------------------------------
+2025-02-20 19:43:44,595 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:43:44,596 - INFO - The directory for the claim efc exists.
+2025-02-20 19:43:44,596 - INFO - The claim efc will be created.
+2025-02-20 19:43:44,598 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:43:44,604 - INFO - Updating the claim details.
+2025-02-20 19:43:44,604 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:43:44,607 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:43:44,607 - INFO - ---------------------------------
+2025-02-20 19:43:44,607 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:43:44,607 - INFO - The directory for the claim efc exists.
+2025-02-20 19:43:44,608 - INFO - The claim for efc exists, updating.
+2025-02-20 19:43:44,608 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:43:44,612 - INFO - Updating the claim details.
+2025-02-20 19:43:44,619 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:43:44,619 - INFO - ---------------------------------
+2025-02-20 19:44:27,630 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:44:27,631 - INFO - The directory for the claim efc exists.
+2025-02-20 19:44:27,631 - INFO - The claim for efc exists, updating.
+2025-02-20 19:44:27,631 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:44:27,637 - INFO - Updating the claim details.
+2025-02-20 19:44:27,637 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:44:27,640 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:44:27,640 - INFO - ---------------------------------
+2025-02-20 19:44:27,640 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:44:27,640 - INFO - The directory for the claim efc exists.
+2025-02-20 19:44:27,640 - INFO - The claim for efc exists, updating.
+2025-02-20 19:44:27,640 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:44:27,643 - INFO - Updating the claim details.
+2025-02-20 19:44:27,645 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:44:27,645 - INFO - ---------------------------------
+2025-02-20 19:44:32,494 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:44:32,495 - INFO - The directory for the claim efc exists.
+2025-02-20 19:44:32,495 - INFO - The claim for efc exists, updating.
+2025-02-20 19:44:32,496 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:44:32,503 - INFO - Updating the claim details.
+2025-02-20 19:44:32,503 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:44:32,506 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:44:32,506 - INFO - ---------------------------------
+2025-02-20 19:44:32,506 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:44:32,506 - INFO - The directory for the claim efc exists.
+2025-02-20 19:44:32,506 - INFO - The claim for efc exists, updating.
+2025-02-20 19:44:32,506 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:44:32,509 - INFO - Updating the claim details.
+2025-02-20 19:44:32,511 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:44:32,511 - INFO - ---------------------------------
+2025-02-20 19:53:22,653 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:53:22,654 - INFO - The directory for the claim efc exists.
+2025-02-20 19:53:22,654 - INFO - The claim efc will be created.
+2025-02-20 19:53:22,654 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:53:22,658 - INFO - Updating the claim details.
+2025-02-20 19:53:22,658 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:53:22,660 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:53:22,660 - INFO - ---------------------------------
+2025-02-20 19:53:22,660 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:53:22,660 - INFO - The directory for the claim efc exists.
+2025-02-20 19:53:22,660 - INFO - The claim for efc exists, updating.
+2025-02-20 19:53:22,660 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:53:22,664 - INFO - Updating the claim details.
+2025-02-20 19:53:22,667 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:53:22,667 - INFO - ---------------------------------
+2025-02-20 19:55:04,751 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:55:04,751 - INFO - The directory for the claim efc exists.
+2025-02-20 19:55:04,752 - INFO - The claim efc will be created.
+2025-02-20 19:55:04,752 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:55:04,758 - INFO - Updating the claim details.
+2025-02-20 19:55:04,759 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'extend'
+2025-02-20 19:55:04,759 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'extend'
+2025-02-20 19:55:26,630 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:55:26,631 - INFO - The directory for the claim efc exists.
+2025-02-20 19:55:26,631 - INFO - The claim efc will be created.
+2025-02-20 19:55:26,631 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:55:26,639 - INFO - Updating the claim details.
+2025-02-20 19:55:26,639 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'extend'
+2025-02-20 19:55:26,639 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'extend'
+2025-02-20 19:55:28,119 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:55:28,120 - INFO - The directory for the claim efc exists.
+2025-02-20 19:55:28,121 - INFO - The claim efc will be created.
+2025-02-20 19:55:28,121 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:55:28,125 - INFO - Updating the claim details.
+2025-02-20 19:55:28,126 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'extend'
+2025-02-20 19:55:28,126 - ERROR - An error occurred: 'CommentedMap' object has no attribute 'extend'
+2025-02-20 19:55:42,225 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:55:42,226 - INFO - The directory for the claim efc exists.
+2025-02-20 19:55:42,227 - INFO - The claim efc will be created.
+2025-02-20 19:55:42,227 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:55:42,233 - INFO - Updating the claim details.
+2025-02-20 19:55:42,233 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:55:42,235 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:55:42,236 - INFO - ---------------------------------
+2025-02-20 19:55:42,236 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:55:42,236 - INFO - The directory for the claim efc exists.
+2025-02-20 19:55:42,236 - INFO - The claim for efc exists, updating.
+2025-02-20 19:55:42,236 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:55:42,240 - INFO - Updating the claim details.
+2025-02-20 19:55:42,242 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:55:42,243 - INFO - ---------------------------------
+2025-02-20 19:57:10,811 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:57:10,812 - INFO - The directory for the claim efc exists.
+2025-02-20 19:57:10,812 - INFO - The claim for efc exists, updating.
+2025-02-20 19:57:10,812 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:57:10,819 - INFO - Updating the claim details.
+2025-02-20 19:57:10,819 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:57:10,822 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:57:10,823 - INFO - ---------------------------------
+2025-02-20 19:57:10,823 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:57:10,823 - INFO - The directory for the claim efc exists.
+2025-02-20 19:57:10,823 - INFO - The claim for efc exists, updating.
+2025-02-20 19:57:10,823 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:57:10,826 - INFO - Updating the claim details.
+2025-02-20 19:57:10,829 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:57:10,829 - INFO - ---------------------------------
+2025-02-20 19:57:22,053 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:57:22,053 - INFO - The directory for the claim efc exists.
+2025-02-20 19:57:22,053 - INFO - The claim for efc exists, updating.
+2025-02-20 19:57:22,053 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:57:22,058 - INFO - Updating the claim details.
+2025-02-20 19:57:22,058 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:57:22,061 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:57:22,061 - INFO - ---------------------------------
+2025-02-20 19:57:22,061 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:57:22,061 - INFO - The directory for the claim efc exists.
+2025-02-20 19:57:22,061 - INFO - The claim for efc exists, updating.
+2025-02-20 19:57:22,061 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:57:22,067 - INFO - Updating the claim details.
+2025-02-20 19:57:22,069 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:57:22,069 - INFO - ---------------------------------
+2025-02-20 19:57:29,227 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:57:29,227 - INFO - The directory for the claim efc exists.
+2025-02-20 19:57:29,228 - INFO - The claim efc will be created.
+2025-02-20 19:57:29,228 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 19:57:29,233 - INFO - Updating the claim details.
+2025-02-20 19:57:29,234 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:57:29,237 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:57:29,237 - INFO - ---------------------------------
+2025-02-20 19:57:29,237 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:57:29,237 - INFO - The directory for the claim efc exists.
+2025-02-20 19:57:29,237 - INFO - The claim for efc exists, updating.
+2025-02-20 19:57:29,237 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:57:29,240 - INFO - Updating the claim details.
+2025-02-20 19:57:29,243 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:57:29,243 - INFO - ---------------------------------
+2025-02-20 19:57:35,873 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 19:57:35,874 - INFO - The directory for the claim efc exists.
+2025-02-20 19:57:35,874 - INFO - The claim for efc exists, updating.
+2025-02-20 19:57:35,874 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 19:57:35,880 - INFO - Updating the claim details.
+2025-02-20 19:57:35,880 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 19:57:35,882 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 19:57:35,882 - INFO - ---------------------------------
+2025-02-20 19:57:35,882 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 19:57:35,882 - INFO - The directory for the claim efc exists.
+2025-02-20 19:57:35,883 - INFO - The claim for efc exists, updating.
+2025-02-20 19:57:35,883 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 19:57:35,888 - INFO - Updating the claim details.
+2025-02-20 19:57:35,890 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 19:57:35,890 - INFO - ---------------------------------
+2025-02-20 20:00:29,796 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:00:29,796 - INFO - The directory for the claim efc exists.
+2025-02-20 20:00:29,797 - INFO - The claim for efc exists, updating.
+2025-02-20 20:00:29,797 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:00:29,805 - INFO - Updating the claim details.
+2025-02-20 20:00:29,806 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:00:29,810 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:00:29,810 - INFO - ---------------------------------
+2025-02-20 20:00:29,810 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:00:29,810 - INFO - The directory for the claim efc exists.
+2025-02-20 20:00:29,811 - INFO - The claim for efc exists, updating.
+2025-02-20 20:00:29,811 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:00:29,813 - INFO - Updating the claim details.
+2025-02-20 20:00:29,814 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:00:29,814 - INFO - ---------------------------------
+2025-02-20 20:00:38,751 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:00:38,751 - INFO - The directory for the claim efc exists.
+2025-02-20 20:00:38,751 - INFO - The claim efc will be created.
+2025-02-20 20:00:38,751 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:00:38,755 - INFO - Updating the claim details.
+2025-02-20 20:00:38,755 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:00:38,757 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:00:38,757 - INFO - ---------------------------------
+2025-02-20 20:00:38,757 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:00:38,757 - INFO - The directory for the claim efc exists.
+2025-02-20 20:00:38,757 - INFO - The claim for efc exists, updating.
+2025-02-20 20:00:38,757 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:00:38,761 - INFO - Updating the claim details.
+2025-02-20 20:00:38,763 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:00:38,763 - INFO - ---------------------------------
+2025-02-20 20:00:52,279 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:00:52,279 - INFO - The directory for the claim efc exists.
+2025-02-20 20:00:52,279 - INFO - The claim for efc exists, updating.
+2025-02-20 20:00:52,280 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:00:52,284 - INFO - Updating the claim details.
+2025-02-20 20:00:52,285 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:00:52,288 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:00:52,288 - INFO - ---------------------------------
+2025-02-20 20:00:52,288 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:00:52,288 - INFO - The directory for the claim efc exists.
+2025-02-20 20:00:52,288 - INFO - The claim for efc exists, updating.
+2025-02-20 20:00:52,288 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:00:52,291 - INFO - Updating the claim details.
+2025-02-20 20:00:52,293 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:00:52,293 - INFO - ---------------------------------
+2025-02-20 20:01:01,775 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:01:01,776 - INFO - The directory for the claim efc exists.
+2025-02-20 20:01:01,776 - INFO - The claim efc will be created.
+2025-02-20 20:01:01,777 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:01:01,781 - INFO - Updating the claim details.
+2025-02-20 20:01:01,781 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:01:01,783 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:01:01,784 - INFO - ---------------------------------
+2025-02-20 20:01:01,784 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:01:01,784 - INFO - The directory for the claim efc exists.
+2025-02-20 20:01:01,784 - INFO - The claim for efc exists, updating.
+2025-02-20 20:01:01,784 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:01:01,787 - INFO - Updating the claim details.
+2025-02-20 20:01:01,789 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:01:01,789 - INFO - ---------------------------------
+2025-02-20 20:02:12,301 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:02:12,301 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:12,302 - INFO - The claim for efc exists, updating.
+2025-02-20 20:02:12,302 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:02:12,307 - INFO - Updating the claim details.
+2025-02-20 20:02:12,307 - INFO - 3
+2025-02-20 20:02:12,308 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:02:12,312 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:02:12,312 - INFO - ---------------------------------
+2025-02-20 20:02:12,312 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:02:12,312 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:12,312 - INFO - The claim for efc exists, updating.
+2025-02-20 20:02:12,312 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:02:12,315 - INFO - Updating the claim details.
+2025-02-20 20:02:12,317 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:02:12,317 - INFO - ---------------------------------
+2025-02-20 20:02:14,055 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:02:14,056 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:14,057 - INFO - The claim for efc exists, updating.
+2025-02-20 20:02:14,057 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:02:14,066 - INFO - Updating the claim details.
+2025-02-20 20:02:14,066 - INFO - 5
+2025-02-20 20:02:14,066 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:02:14,069 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:02:14,069 - INFO - ---------------------------------
+2025-02-20 20:02:14,069 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:02:14,070 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:14,070 - INFO - The claim for efc exists, updating.
+2025-02-20 20:02:14,070 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:02:14,073 - INFO - Updating the claim details.
+2025-02-20 20:02:14,076 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:02:14,076 - INFO - ---------------------------------
+2025-02-20 20:02:20,223 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:02:20,224 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:20,225 - INFO - The claim efc will be created.
+2025-02-20 20:02:20,225 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:02:20,232 - INFO - Updating the claim details.
+2025-02-20 20:02:20,232 - INFO - 1
+2025-02-20 20:02:20,232 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:02:20,235 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:02:20,236 - INFO - ---------------------------------
+2025-02-20 20:02:20,236 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:02:20,236 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:20,236 - INFO - The claim for efc exists, updating.
+2025-02-20 20:02:20,236 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:02:20,240 - INFO - Updating the claim details.
+2025-02-20 20:02:20,243 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:02:20,244 - INFO - ---------------------------------
+2025-02-20 20:02:40,491 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:02:40,493 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:40,493 - INFO - The claim efc will be created.
+2025-02-20 20:02:40,493 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:02:40,499 - INFO - Updating the claim details.
+2025-02-20 20:02:40,499 - INFO - 1
+2025-02-20 20:02:40,499 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:02:40,503 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:02:40,503 - INFO - ---------------------------------
+2025-02-20 20:02:40,503 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:02:40,503 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:40,503 - INFO - The claim for efc exists, updating.
+2025-02-20 20:02:40,503 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:02:40,506 - INFO - Updating the claim details.
+2025-02-20 20:02:40,509 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:02:40,509 - INFO - ---------------------------------
+2025-02-20 20:02:47,224 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:02:47,225 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:47,225 - INFO - The claim for efc exists, updating.
+2025-02-20 20:02:47,225 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:02:47,234 - INFO - Updating the claim details.
+2025-02-20 20:02:47,237 - INFO - 3
+2025-02-20 20:02:47,237 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:02:47,241 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:02:47,241 - INFO - ---------------------------------
+2025-02-20 20:02:47,242 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:02:47,242 - INFO - The directory for the claim efc exists.
+2025-02-20 20:02:47,242 - INFO - The claim for efc exists, updating.
+2025-02-20 20:02:47,242 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:02:47,245 - INFO - Updating the claim details.
+2025-02-20 20:02:47,247 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:02:47,248 - INFO - ---------------------------------
+2025-02-20 20:03:10,678 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:03:10,679 - INFO - The directory for the claim efc exists.
+2025-02-20 20:03:10,679 - INFO - The claim for efc exists, updating.
+2025-02-20 20:03:10,679 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:03:10,682 - INFO - Updating the claim details.
+2025-02-20 20:03:10,682 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:03:10,684 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:03:10,684 - INFO - ---------------------------------
+2025-02-20 20:03:10,684 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:03:10,684 - INFO - The directory for the claim efc exists.
+2025-02-20 20:03:10,684 - INFO - The claim for efc exists, updating.
+2025-02-20 20:03:10,685 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:03:10,690 - INFO - Updating the claim details.
+2025-02-20 20:03:10,693 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:03:10,693 - INFO - ---------------------------------
+2025-02-20 20:03:34,977 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:03:34,977 - INFO - The directory for the claim efc exists.
+2025-02-20 20:03:34,977 - INFO - The claim efc will be created.
+2025-02-20 20:03:34,977 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:03:34,982 - INFO - Updating the claim details.
+2025-02-20 20:03:34,982 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:03:34,988 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:03:34,988 - INFO - ---------------------------------
+2025-02-20 20:03:34,989 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:03:34,989 - INFO - The directory for the claim efc exists.
+2025-02-20 20:03:34,989 - INFO - The claim for efc exists, updating.
+2025-02-20 20:03:34,989 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:03:34,993 - INFO - Updating the claim details.
+2025-02-20 20:03:34,995 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:03:34,995 - INFO - ---------------------------------
+2025-02-20 20:03:46,522 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:03:46,522 - INFO - The directory for the claim efc exists.
+2025-02-20 20:03:46,522 - INFO - The claim for efc exists, updating.
+2025-02-20 20:03:46,522 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:03:46,526 - INFO - Updating the claim details.
+2025-02-20 20:03:46,526 - INFO - Updating paths
+2025-02-20 20:03:46,526 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:03:46,528 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:03:46,528 - INFO - ---------------------------------
+2025-02-20 20:03:46,529 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:03:46,529 - INFO - The directory for the claim efc exists.
+2025-02-20 20:03:46,530 - INFO - The claim for efc exists, updating.
+2025-02-20 20:03:46,530 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:03:46,532 - INFO - Updating the claim details.
+2025-02-20 20:03:46,534 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:03:46,534 - INFO - ---------------------------------
+2025-02-20 20:05:02,907 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:05:02,907 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:02,907 - INFO - The claim efc will be created.
+2025-02-20 20:05:02,907 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:05:02,913 - INFO - Updating the claim details.
+2025-02-20 20:05:02,914 - ERROR - An error occurred: '>' not supported between instances of 'CommentedMap' and 'int'
+2025-02-20 20:05:02,914 - ERROR - An error occurred: '>' not supported between instances of 'CommentedMap' and 'int'
+2025-02-20 20:05:11,900 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:05:11,901 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:11,901 - INFO - The claim efc will be created.
+2025-02-20 20:05:11,901 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:05:11,904 - INFO - Updating the claim details.
+2025-02-20 20:05:11,905 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:05:11,908 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:05:11,909 - INFO - ---------------------------------
+2025-02-20 20:05:11,909 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:05:11,909 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:11,909 - INFO - The claim for efc exists, updating.
+2025-02-20 20:05:11,909 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:05:11,912 - INFO - Updating the claim details.
+2025-02-20 20:05:11,914 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:05:11,914 - INFO - ---------------------------------
+2025-02-20 20:05:19,450 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:05:19,451 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:19,452 - INFO - The claim efc will be created.
+2025-02-20 20:05:19,452 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:05:19,455 - INFO - Updating the claim details.
+2025-02-20 20:05:19,455 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:05:19,456 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:05:19,456 - INFO - ---------------------------------
+2025-02-20 20:05:19,456 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:05:19,456 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:19,456 - INFO - The claim for efc exists, updating.
+2025-02-20 20:05:19,457 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:05:19,458 - INFO - Updating the claim details.
+2025-02-20 20:05:19,459 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:05:19,459 - INFO - ---------------------------------
+2025-02-20 20:05:40,092 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:05:40,092 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:40,092 - INFO - The claim for efc exists, updating.
+2025-02-20 20:05:40,092 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:05:40,097 - INFO - Updating the claim details.
+2025-02-20 20:05:40,097 - INFO - Updating paths
+2025-02-20 20:05:40,098 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:05:40,103 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:05:40,103 - INFO - ---------------------------------
+2025-02-20 20:05:40,103 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:05:40,103 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:40,103 - INFO - The claim for efc exists, updating.
+2025-02-20 20:05:40,103 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:05:40,107 - INFO - Updating the claim details.
+2025-02-20 20:05:40,108 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:05:40,109 - INFO - ---------------------------------
+2025-02-20 20:05:45,630 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:05:45,630 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:45,630 - INFO - The claim efc will be created.
+2025-02-20 20:05:45,630 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:05:45,634 - INFO - Updating the claim details.
+2025-02-20 20:05:45,634 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:05:45,636 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:05:45,637 - INFO - ---------------------------------
+2025-02-20 20:05:45,637 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:05:45,637 - INFO - The directory for the claim efc exists.
+2025-02-20 20:05:45,637 - INFO - The claim for efc exists, updating.
+2025-02-20 20:05:45,637 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:05:45,640 - INFO - Updating the claim details.
+2025-02-20 20:05:45,641 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:05:45,642 - INFO - ---------------------------------
+2025-02-20 20:06:06,707 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:06:06,707 - INFO - The directory for the claim efc exists.
+2025-02-20 20:06:06,708 - INFO - The claim efc will be created.
+2025-02-20 20:06:06,708 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:06:06,712 - INFO - Updating the claim details.
+2025-02-20 20:06:06,712 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:06:06,715 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:06:06,715 - INFO - ---------------------------------
+2025-02-20 20:06:06,715 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:06:06,715 - INFO - The directory for the claim efc exists.
+2025-02-20 20:06:06,715 - INFO - The claim for efc exists, updating.
+2025-02-20 20:06:06,715 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:06:06,720 - INFO - Updating the claim details.
+2025-02-20 20:06:06,724 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:06:06,724 - INFO - ---------------------------------
+2025-02-20 20:06:11,291 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:06:11,291 - INFO - The directory for the claim efc exists.
+2025-02-20 20:06:11,292 - INFO - The claim for efc exists, updating.
+2025-02-20 20:06:11,292 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:06:11,297 - INFO - Updating the claim details.
+2025-02-20 20:06:11,297 - INFO - Updating paths
+2025-02-20 20:06:11,297 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:06:11,300 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:06:11,300 - INFO - ---------------------------------
+2025-02-20 20:06:11,300 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:06:11,301 - INFO - The directory for the claim efc exists.
+2025-02-20 20:06:11,301 - INFO - The claim for efc exists, updating.
+2025-02-20 20:06:11,301 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:06:11,304 - INFO - Updating the claim details.
+2025-02-20 20:06:11,306 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:06:11,306 - INFO - ---------------------------------
+2025-02-20 20:06:13,943 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:06:13,944 - INFO - The directory for the claim efc exists.
+2025-02-20 20:06:13,944 - INFO - The claim for efc exists, updating.
+2025-02-20 20:06:13,944 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:06:13,950 - INFO - Updating the claim details.
+2025-02-20 20:06:13,950 - INFO - Updating paths
+2025-02-20 20:06:13,951 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:06:13,954 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:06:13,954 - INFO - ---------------------------------
+2025-02-20 20:06:13,954 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:06:13,955 - INFO - The directory for the claim efc exists.
+2025-02-20 20:06:13,955 - INFO - The claim for efc exists, updating.
+2025-02-20 20:06:13,955 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:06:13,959 - INFO - Updating the claim details.
+2025-02-20 20:06:13,961 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:06:13,961 - INFO - ---------------------------------
+2025-02-20 20:13:48,983 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:13:48,983 - INFO - The directory for the claim efc exists.
+2025-02-20 20:13:48,984 - INFO - The claim for efc exists, updating.
+2025-02-20 20:13:48,984 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:13:48,988 - INFO - Updating the claim details.
+2025-02-20 20:13:48,988 - INFO - Updating paths
+2025-02-20 20:13:48,989 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:13:48,992 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:13:48,992 - INFO - ---------------------------------
+2025-02-20 20:13:48,992 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:13:48,993 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml'
+2025-02-20 20:13:48,993 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml'
+2025-02-20 20:14:46,622 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:14:46,623 - INFO - The directory for the claim efc exists.
+2025-02-20 20:14:46,623 - INFO - The claim for efc exists, updating.
+2025-02-20 20:14:46,624 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:14:46,634 - INFO - Updating the claim details.
+2025-02-20 20:14:46,634 - INFO - Updating paths
+2025-02-20 20:14:46,635 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:14:46,638 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:14:46,639 - INFO - ---------------------------------
+2025-02-20 20:14:46,639 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:14:46,639 - INFO - The directory for the claim efc exists.
+2025-02-20 20:14:46,639 - INFO - The claim for efc exists, updating.
+2025-02-20 20:14:46,639 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:14:46,642 - INFO - Updating the claim details.
+2025-02-20 20:14:46,643 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:14:46,643 - INFO - ---------------------------------
+2025-02-20 20:14:54,512 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:14:54,512 - INFO - The directory for the claim efc exists.
+2025-02-20 20:14:54,513 - INFO - The claim for efc exists, updating.
+2025-02-20 20:14:54,513 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:14:54,517 - INFO - Updating the claim details.
+2025-02-20 20:14:54,517 - INFO - Updating paths
+2025-02-20 20:14:54,518 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:14:54,521 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:14:54,521 - INFO - ---------------------------------
+2025-02-20 20:14:54,521 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:14:54,521 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml'
+2025-02-20 20:14:54,521 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml'
+2025-02-20 20:15:25,009 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:15:25,009 - INFO - The directory for the claim efc exists.
+2025-02-20 20:15:25,009 - INFO - The claim for efc exists, updating.
+2025-02-20 20:15:25,009 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:15:25,013 - INFO - Updating the claim details.
+2025-02-20 20:15:25,013 - INFO - Updating paths
+2025-02-20 20:15:25,013 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:15:25,015 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:15:25,015 - INFO - ---------------------------------
+2025-02-20 20:15:25,015 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:15:25,017 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:15:25,017 - INFO - The directory for the claim efc exists.
+2025-02-20 20:15:25,017 - INFO - The claim for efc exists, updating.
+2025-02-20 20:15:25,017 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:15:25,020 - INFO - Updating the claim details.
+2025-02-20 20:15:25,021 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:15:25,022 - INFO - ---------------------------------
+2025-02-20 20:15:25,022 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/kustomization.yaml.
+2025-02-20 20:15:25,022 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/kustomization.yaml'
+2025-02-20 20:15:25,022 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/kustomization.yaml'
+2025-02-20 20:16:17,704 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:16:17,704 - INFO - The directory for the claim efc exists.
+2025-02-20 20:16:17,704 - INFO - The claim for efc exists, updating.
+2025-02-20 20:16:17,704 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:16:17,715 - INFO - Updating the claim details.
+2025-02-20 20:16:17,716 - INFO - Updating paths
+2025-02-20 20:16:17,716 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:16:17,723 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:16:17,723 - INFO - ---------------------------------
+2025-02-20 20:16:17,724 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:16:17,725 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:16:17,725 - INFO - The directory for the claim efc exists.
+2025-02-20 20:16:17,725 - INFO - The claim for efc exists, updating.
+2025-02-20 20:16:17,726 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:16:17,729 - INFO - Updating the claim details.
+2025-02-20 20:16:17,732 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:16:17,732 - INFO - ---------------------------------
+2025-02-20 20:17:37,072 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:17:37,072 - INFO - The directory for the claim efc exists.
+2025-02-20 20:17:37,072 - INFO - The claim for efc exists, updating.
+2025-02-20 20:17:37,072 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:17:37,076 - INFO - Updating the claim details.
+2025-02-20 20:17:37,077 - INFO - Updating paths
+2025-02-20 20:17:37,077 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:17:37,079 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:17:37,079 - INFO - ---------------------------------
+2025-02-20 20:17:37,079 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:17:37,080 - ERROR - An error occurred: 'NoneType' object has no attribute 'append'
+2025-02-20 20:17:37,080 - ERROR - An error occurred: 'NoneType' object has no attribute 'append'
+2025-02-20 20:18:13,706 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:18:13,707 - INFO - The directory for the claim efc exists.
+2025-02-20 20:18:13,708 - INFO - The claim for efc exists, updating.
+2025-02-20 20:18:13,708 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:18:13,719 - INFO - Updating the claim details.
+2025-02-20 20:18:13,719 - INFO - Updating paths
+2025-02-20 20:18:13,719 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:18:13,726 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:18:13,726 - INFO - ---------------------------------
+2025-02-20 20:18:13,726 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:18:13,728 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml
+2025-02-20 20:18:13,729 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:18:13,729 - INFO - The directory for the claim efc exists.
+2025-02-20 20:18:13,730 - INFO - The claim for efc exists, updating.
+2025-02-20 20:18:13,730 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:18:13,734 - INFO - Updating the claim details.
+2025-02-20 20:18:13,736 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:18:13,736 - INFO - ---------------------------------
+2025-02-20 20:18:36,108 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:18:36,109 - INFO - The directory for the claim efc exists.
+2025-02-20 20:18:36,109 - INFO - The claim for efc exists, updating.
+2025-02-20 20:18:36,109 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:18:36,118 - INFO - Updating the claim details.
+2025-02-20 20:18:36,118 - INFO - Updating paths
+2025-02-20 20:18:36,119 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:18:36,122 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:18:36,122 - INFO - ---------------------------------
+2025-02-20 20:18:36,123 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:18:36,124 - INFO - example
+2025-02-20 20:18:36,124 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml
+2025-02-20 20:18:36,124 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:18:36,124 - INFO - The directory for the claim efc exists.
+2025-02-20 20:18:36,124 - INFO - The claim for efc exists, updating.
+2025-02-20 20:18:36,124 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:18:36,126 - INFO - Updating the claim details.
+2025-02-20 20:18:36,128 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:18:36,128 - INFO - ---------------------------------
+2025-02-20 20:18:37,949 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:18:37,951 - INFO - The directory for the claim efc exists.
+2025-02-20 20:18:37,952 - INFO - The claim for efc exists, updating.
+2025-02-20 20:18:37,952 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:18:37,962 - INFO - Updating the claim details.
+2025-02-20 20:18:37,962 - INFO - Updating paths
+2025-02-20 20:18:37,963 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:18:37,969 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:18:37,969 - INFO - ---------------------------------
+2025-02-20 20:18:37,969 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:18:37,970 - INFO - example
+2025-02-20 20:18:37,970 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml
+2025-02-20 20:18:37,970 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:18:37,970 - INFO - The directory for the claim efc exists.
+2025-02-20 20:18:37,970 - INFO - The claim for efc exists, updating.
+2025-02-20 20:18:37,970 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:18:37,973 - INFO - Updating the claim details.
+2025-02-20 20:18:37,975 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:18:37,976 - INFO - ---------------------------------
+2025-02-20 20:18:58,292 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:18:58,293 - INFO - The directory for the claim efc exists.
+2025-02-20 20:18:58,293 - INFO - The claim for efc exists, updating.
+2025-02-20 20:18:58,294 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:18:58,302 - INFO - Updating the claim details.
+2025-02-20 20:18:58,302 - INFO - Updating paths
+2025-02-20 20:18:58,302 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:18:58,307 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:18:58,307 - INFO - ---------------------------------
+2025-02-20 20:18:58,307 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:18:58,309 - INFO - example
+2025-02-20 20:18:58,309 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml
+2025-02-20 20:18:58,309 - INFO - {'apiVersion': 'kustomize.config.k8s.io/v1beta1', 'resources': None}
+2025-02-20 20:18:58,309 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:18:58,310 - INFO - The directory for the claim efc exists.
+2025-02-20 20:18:58,310 - INFO - The claim for efc exists, updating.
+2025-02-20 20:18:58,310 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:18:58,313 - INFO - Updating the claim details.
+2025-02-20 20:18:58,315 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:18:58,315 - INFO - ---------------------------------
+2025-02-20 20:20:49,261 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:20:49,262 - INFO - The directory for the claim efc exists.
+2025-02-20 20:20:49,262 - INFO - The claim for efc exists, updating.
+2025-02-20 20:20:49,262 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:20:49,278 - INFO - Updating the claim details.
+2025-02-20 20:20:49,278 - INFO - Updating paths
+2025-02-20 20:20:49,279 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:20:49,283 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:20:49,284 - INFO - ---------------------------------
+2025-02-20 20:20:49,284 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:20:49,286 - INFO - example
+2025-02-20 20:20:49,286 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml
+2025-02-20 20:20:49,286 - INFO - {'apiVersion': 'kustomize.config.k8s.io/v1beta1', 'resources': None}
+2025-02-20 20:20:49,287 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:20:49,287 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:21:47,728 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:21:47,729 - INFO - The directory for the claim efc exists.
+2025-02-20 20:21:47,729 - INFO - The claim for efc exists, updating.
+2025-02-20 20:21:47,729 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:21:47,742 - INFO - Updating the claim details.
+2025-02-20 20:21:47,743 - INFO - Updating paths
+2025-02-20 20:21:47,743 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:21:47,750 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:21:47,750 - INFO - ---------------------------------
+2025-02-20 20:21:47,751 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:21:47,752 - INFO - example
+2025-02-20 20:21:47,753 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml
+2025-02-20 20:21:47,753 - INFO - {'apiVersion': 'kustomize.config.k8s.io/v1beta1', 'resources': None}
+2025-02-20 20:21:47,753 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:21:47,753 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:24:10,928 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:24:10,928 - INFO - The directory for the claim efc exists.
+2025-02-20 20:24:10,928 - INFO - The claim for efc exists, updating.
+2025-02-20 20:24:10,928 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:24:10,939 - INFO - Updating the claim details.
+2025-02-20 20:24:10,939 - INFO - Updating paths
+2025-02-20 20:24:10,939 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:24:10,945 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:24:10,945 - INFO - ---------------------------------
+2025-02-20 20:24:10,945 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:24:10,946 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:24:10,946 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:24:26,290 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:24:26,291 - INFO - The directory for the claim efc exists.
+2025-02-20 20:24:26,291 - INFO - The claim for efc exists, updating.
+2025-02-20 20:24:26,291 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:24:26,302 - INFO - Updating the claim details.
+2025-02-20 20:24:26,302 - INFO - Updating paths
+2025-02-20 20:24:26,302 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:24:26,307 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:24:26,307 - INFO - ---------------------------------
+2025-02-20 20:24:26,307 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:24:26,308 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:24:26,308 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:24:50,144 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:24:50,144 - INFO - The directory for the claim efc exists.
+2025-02-20 20:24:50,145 - INFO - The claim for efc exists, updating.
+2025-02-20 20:24:50,145 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:24:50,157 - INFO - Updating the claim details.
+2025-02-20 20:24:50,160 - INFO - Updating paths
+2025-02-20 20:24:50,161 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:24:50,168 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:24:50,168 - INFO - ---------------------------------
+2025-02-20 20:24:50,169 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:24:50,170 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:24:50,170 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:24:51,050 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:24:51,051 - INFO - The directory for the claim efc exists.
+2025-02-20 20:24:51,051 - INFO - The claim for efc exists, updating.
+2025-02-20 20:24:51,051 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:24:51,064 - INFO - Updating the claim details.
+2025-02-20 20:24:51,065 - INFO - Updating paths
+2025-02-20 20:24:51,065 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:24:51,071 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:24:51,071 - INFO - ---------------------------------
+2025-02-20 20:24:51,071 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:24:51,072 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:24:51,072 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:26:15,273 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:26:15,274 - INFO - The directory for the claim efc exists.
+2025-02-20 20:26:15,274 - INFO - The claim for efc exists, updating.
+2025-02-20 20:26:15,274 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:26:15,290 - INFO - Updating the claim details.
+2025-02-20 20:26:15,290 - INFO - Updating paths
+2025-02-20 20:26:15,290 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:26:15,297 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:26:15,297 - INFO - ---------------------------------
+2025-02-20 20:26:15,297 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:26:15,298 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:26:15,298 - ERROR - An error occurred: I/O operation on closed file.
+2025-02-20 20:27:02,967 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:27:02,967 - INFO - The directory for the claim efc exists.
+2025-02-20 20:27:02,967 - INFO - The claim for efc exists, updating.
+2025-02-20 20:27:02,967 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:27:02,980 - INFO - Updating the claim details.
+2025-02-20 20:27:02,981 - INFO - Updating paths
+2025-02-20 20:27:02,981 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:27:02,988 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:27:02,988 - INFO - ---------------------------------
+2025-02-20 20:27:02,988 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:27:02,991 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:27:02,991 - INFO - The directory for the claim efc exists.
+2025-02-20 20:27:02,991 - INFO - The claim for efc exists, updating.
+2025-02-20 20:27:02,991 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:27:02,994 - INFO - Updating the claim details.
+2025-02-20 20:27:02,996 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:27:02,996 - INFO - ---------------------------------
+2025-02-20 20:27:19,721 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:27:19,722 - INFO - The directory for the claim efc exists.
+2025-02-20 20:27:19,722 - INFO - The claim for efc exists, updating.
+2025-02-20 20:27:19,722 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:27:19,731 - INFO - Updating the claim details.
+2025-02-20 20:27:19,731 - INFO - Updating paths
+2025-02-20 20:27:19,731 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:27:19,739 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:27:19,740 - INFO - ---------------------------------
+2025-02-20 20:27:19,741 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:27:19,745 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:27:19,745 - INFO - The directory for the claim efc exists.
+2025-02-20 20:27:19,745 - INFO - The claim for efc exists, updating.
+2025-02-20 20:27:19,745 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:27:19,748 - INFO - Updating the claim details.
+2025-02-20 20:27:19,751 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:27:19,751 - INFO - ---------------------------------
+2025-02-20 20:28:05,940 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:28:05,940 - INFO - The directory for the claim efc exists.
+2025-02-20 20:28:05,940 - INFO - The claim for efc exists, updating.
+2025-02-20 20:28:05,940 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:28:05,954 - INFO - Updating the claim details.
+2025-02-20 20:28:05,954 - INFO - Updating paths
+2025-02-20 20:28:05,955 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:28:05,963 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:28:05,964 - INFO - ---------------------------------
+2025-02-20 20:28:05,964 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:28:05,972 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:28:05,972 - INFO - The directory for the claim efc exists.
+2025-02-20 20:28:05,973 - INFO - The claim for efc exists, updating.
+2025-02-20 20:28:05,974 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:28:05,980 - INFO - Updating the claim details.
+2025-02-20 20:28:05,982 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:28:05,982 - INFO - ---------------------------------
+2025-02-20 20:28:31,946 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:28:31,946 - INFO - The directory for the claim efc exists.
+2025-02-20 20:28:31,947 - INFO - The claim for efc exists, updating.
+2025-02-20 20:28:31,948 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:28:31,965 - INFO - Updating the claim details.
+2025-02-20 20:28:31,966 - INFO - Updating paths
+2025-02-20 20:28:31,966 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:28:31,972 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:28:31,972 - INFO - ---------------------------------
+2025-02-20 20:28:31,973 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:28:31,976 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:28:31,977 - INFO - The directory for the claim efc exists.
+2025-02-20 20:28:31,977 - INFO - The claim for efc exists, updating.
+2025-02-20 20:28:31,977 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:28:31,981 - INFO - Updating the claim details.
+2025-02-20 20:28:31,984 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:28:31,984 - INFO - ---------------------------------
+2025-02-20 20:29:06,163 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:29:06,164 - INFO - The directory for the claim efc exists.
+2025-02-20 20:29:06,164 - INFO - The claim for efc exists, updating.
+2025-02-20 20:29:06,164 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:29:06,177 - INFO - Updating the claim details.
+2025-02-20 20:29:06,177 - INFO - Updating paths
+2025-02-20 20:29:06,178 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:29:06,182 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:29:06,183 - INFO - ---------------------------------
+2025-02-20 20:29:06,183 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:29:06,185 - INFO - ['e', 'f', 'c', '/', 'e', 'f', 'c', '-', 'k', 'v', '-', 'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '.', 'y', 'a', 'm', 'l']
+2025-02-20 20:29:06,188 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:29:06,189 - INFO - The directory for the claim efc exists.
+2025-02-20 20:29:06,189 - INFO - The claim for efc exists, updating.
+2025-02-20 20:29:06,189 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:29:06,191 - INFO - Updating the claim details.
+2025-02-20 20:29:06,193 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:29:06,193 - INFO - ---------------------------------
+2025-02-20 20:29:59,219 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:29:59,220 - INFO - The directory for the claim efc exists.
+2025-02-20 20:29:59,220 - INFO - The claim for efc exists, updating.
+2025-02-20 20:29:59,221 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:29:59,234 - INFO - Updating the claim details.
+2025-02-20 20:29:59,234 - INFO - Updating paths
+2025-02-20 20:29:59,236 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:29:59,246 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:29:59,247 - INFO - ---------------------------------
+2025-02-20 20:29:59,247 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:29:59,249 - INFO - []
+2025-02-20 20:29:59,250 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:29:59,251 - INFO - The directory for the claim efc exists.
+2025-02-20 20:29:59,251 - INFO - The claim for efc exists, updating.
+2025-02-20 20:29:59,251 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:29:59,256 - INFO - Updating the claim details.
+2025-02-20 20:29:59,258 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:29:59,258 - INFO - ---------------------------------
+2025-02-20 20:30:51,417 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:30:51,417 - INFO - The directory for the claim efc exists.
+2025-02-20 20:30:51,418 - INFO - The claim for efc exists, updating.
+2025-02-20 20:30:51,418 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:30:51,432 - INFO - Updating the claim details.
+2025-02-20 20:30:51,433 - INFO - Updating paths
+2025-02-20 20:30:51,434 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:30:51,445 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:30:51,446 - INFO - ---------------------------------
+2025-02-20 20:30:51,446 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:30:51,447 - INFO - []
+2025-02-20 20:30:51,448 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:30:51,448 - INFO - The directory for the claim efc exists.
+2025-02-20 20:30:51,448 - INFO - The claim for efc exists, updating.
+2025-02-20 20:30:51,448 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:30:51,451 - INFO - Updating the claim details.
+2025-02-20 20:30:51,453 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:30:51,453 - INFO - ---------------------------------
+2025-02-20 20:30:58,097 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:30:58,098 - INFO - The directory for the claim efc exists.
+2025-02-20 20:30:58,099 - INFO - The claim for efc exists, updating.
+2025-02-20 20:30:58,099 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:30:58,116 - INFO - Updating the claim details.
+2025-02-20 20:30:58,116 - INFO - Updating paths
+2025-02-20 20:30:58,117 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:30:58,129 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:30:58,129 - INFO - ---------------------------------
+2025-02-20 20:30:58,130 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:30:58,135 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:30:58,137 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:30:58,137 - INFO - The directory for the claim efc exists.
+2025-02-20 20:30:58,138 - INFO - The claim for efc exists, updating.
+2025-02-20 20:30:58,138 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:30:58,143 - INFO - Updating the claim details.
+2025-02-20 20:30:58,145 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:30:58,145 - INFO - ---------------------------------
+2025-02-20 20:31:56,615 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:31:56,615 - INFO - The directory for the claim efc exists.
+2025-02-20 20:31:56,616 - INFO - The claim for efc exists, updating.
+2025-02-20 20:31:56,616 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:31:56,626 - INFO - Updating the claim details.
+2025-02-20 20:31:56,627 - INFO - Updating paths
+2025-02-20 20:31:56,627 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:31:56,636 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:31:56,636 - INFO - ---------------------------------
+2025-02-20 20:31:56,636 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:31:56,639 - INFO - ['efc/efc-kv-internal.yaml', 'efc/efc-kv-internal.yaml']
+2025-02-20 20:31:56,640 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:31:56,640 - INFO - The directory for the claim efc exists.
+2025-02-20 20:31:56,640 - INFO - The claim for efc exists, updating.
+2025-02-20 20:31:56,640 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:31:56,644 - INFO - Updating the claim details.
+2025-02-20 20:31:56,646 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:31:56,646 - INFO - ---------------------------------
+2025-02-20 20:32:03,268 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:32:03,269 - INFO - The directory for the claim efc exists.
+2025-02-20 20:32:03,269 - INFO - The claim for efc exists, updating.
+2025-02-20 20:32:03,270 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:32:03,285 - INFO - Updating the claim details.
+2025-02-20 20:32:03,286 - INFO - Updating paths
+2025-02-20 20:32:03,286 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:32:03,297 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:32:03,297 - INFO - ---------------------------------
+2025-02-20 20:32:03,298 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:32:03,299 - INFO - []
+2025-02-20 20:32:03,299 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:32:03,300 - INFO - The directory for the claim efc exists.
+2025-02-20 20:32:03,300 - INFO - The claim for efc exists, updating.
+2025-02-20 20:32:03,300 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:32:03,303 - INFO - Updating the claim details.
+2025-02-20 20:32:03,304 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:32:03,304 - INFO - ---------------------------------
+2025-02-20 20:32:05,711 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:32:05,712 - INFO - The directory for the claim efc exists.
+2025-02-20 20:32:05,713 - INFO - The claim for efc exists, updating.
+2025-02-20 20:32:05,713 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:32:05,729 - INFO - Updating the claim details.
+2025-02-20 20:32:05,730 - INFO - Updating paths
+2025-02-20 20:32:05,732 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:32:05,744 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:32:05,745 - INFO - ---------------------------------
+2025-02-20 20:32:05,745 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:32:05,747 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:32:05,749 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:32:05,750 - INFO - The directory for the claim efc exists.
+2025-02-20 20:32:05,751 - INFO - The claim for efc exists, updating.
+2025-02-20 20:32:05,751 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:32:05,755 - INFO - Updating the claim details.
+2025-02-20 20:32:05,756 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:32:05,756 - INFO - ---------------------------------
+2025-02-20 20:32:07,911 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:32:07,912 - INFO - The directory for the claim efc exists.
+2025-02-20 20:32:07,912 - INFO - The claim for efc exists, updating.
+2025-02-20 20:32:07,912 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:32:07,927 - INFO - Updating the claim details.
+2025-02-20 20:32:07,928 - INFO - Updating paths
+2025-02-20 20:32:07,928 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:32:07,939 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:32:07,940 - INFO - ---------------------------------
+2025-02-20 20:32:07,940 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:32:07,941 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:32:07,942 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:32:07,943 - INFO - The directory for the claim efc exists.
+2025-02-20 20:32:07,943 - INFO - The claim for efc exists, updating.
+2025-02-20 20:32:07,943 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:32:07,945 - INFO - Updating the claim details.
+2025-02-20 20:32:07,946 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:32:07,946 - INFO - ---------------------------------
+2025-02-20 20:33:41,913 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:33:41,913 - INFO - The directory for the claim efc exists.
+2025-02-20 20:33:41,914 - INFO - The claim for efc exists, updating.
+2025-02-20 20:33:41,914 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:33:41,930 - INFO - Updating the claim details.
+2025-02-20 20:33:41,930 - INFO - Updating paths
+2025-02-20 20:33:41,931 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:33:41,940 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:33:41,940 - INFO - ---------------------------------
+2025-02-20 20:33:41,940 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:33:41,941 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:33:41,942 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:33:41,943 - INFO - The directory for the claim efc exists.
+2025-02-20 20:33:41,943 - INFO - The claim for efc exists, updating.
+2025-02-20 20:33:41,943 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:33:41,946 - INFO - Updating the claim details.
+2025-02-20 20:33:41,951 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:33:41,951 - INFO - ---------------------------------
+2025-02-20 20:33:41,951 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc../kustomization.yaml.
+2025-02-20 20:33:41,952 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc../kustomization.yaml'
+2025-02-20 20:33:41,952 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc../kustomization.yaml'
+2025-02-20 20:33:56,939 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:33:56,940 - INFO - The directory for the claim efc exists.
+2025-02-20 20:33:56,940 - INFO - The claim for efc exists, updating.
+2025-02-20 20:33:56,940 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:33:56,950 - INFO - Updating the claim details.
+2025-02-20 20:33:56,950 - INFO - Updating paths
+2025-02-20 20:33:56,950 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:33:56,955 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:33:56,955 - INFO - ---------------------------------
+2025-02-20 20:33:56,955 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:33:56,956 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:33:56,956 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:33:56,956 - INFO - The directory for the claim efc exists.
+2025-02-20 20:33:56,956 - INFO - The claim for efc exists, updating.
+2025-02-20 20:33:56,956 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:33:56,958 - INFO - Updating the claim details.
+2025-02-20 20:33:56,959 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:33:56,959 - INFO - ---------------------------------
+2025-02-20 20:33:56,959 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/kustomization.yaml
+2025-02-20 20:33:56,959 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/kustomization.yaml.
+2025-02-20 20:33:56,959 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/kustomization.yaml'
+2025-02-20 20:33:56,959 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/kustomization.yaml'
+2025-02-20 20:35:14,108 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:35:14,109 - INFO - The directory for the claim efc exists.
+2025-02-20 20:35:14,110 - INFO - The claim for efc exists, updating.
+2025-02-20 20:35:14,110 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:35:14,120 - INFO - Updating the claim details.
+2025-02-20 20:35:14,120 - INFO - Updating paths
+2025-02-20 20:35:14,120 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:35:14,124 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:35:14,125 - INFO - ---------------------------------
+2025-02-20 20:35:14,125 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:35:14,127 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:35:14,128 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:35:14,128 - INFO - The directory for the claim efc exists.
+2025-02-20 20:35:14,128 - INFO - The claim for efc exists, updating.
+2025-02-20 20:35:14,128 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:35:14,130 - INFO - Updating the claim details.
+2025-02-20 20:35:14,131 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:35:14,131 - INFO - ---------------------------------
+2025-02-20 20:35:14,131 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml
+2025-02-20 20:35:14,131 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-20 20:35:14,131 - ERROR - An error occurred: 'NoneType' object is not iterable
+2025-02-20 20:35:14,131 - ERROR - An error occurred: 'NoneType' object is not iterable
+2025-02-20 20:35:23,556 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:35:23,556 - INFO - The directory for the claim efc exists.
+2025-02-20 20:35:23,556 - INFO - The claim for efc exists, updating.
+2025-02-20 20:35:23,557 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:35:23,576 - INFO - Updating the claim details.
+2025-02-20 20:35:23,576 - INFO - Updating paths
+2025-02-20 20:35:23,576 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:35:23,586 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:35:23,586 - INFO - ---------------------------------
+2025-02-20 20:35:23,586 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:35:23,588 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:35:23,590 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:35:23,590 - INFO - The directory for the claim efc exists.
+2025-02-20 20:35:23,591 - INFO - The claim for efc exists, updating.
+2025-02-20 20:35:23,591 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:35:23,594 - INFO - Updating the claim details.
+2025-02-20 20:35:23,596 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:35:23,596 - INFO - ---------------------------------
+2025-02-20 20:35:23,596 - INFO - /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml
+2025-02-20 20:35:23,596 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-20 20:35:23,597 - INFO - []
+2025-02-20 20:36:24,380 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:36:24,381 - INFO - The directory for the claim efc exists.
+2025-02-20 20:36:24,381 - INFO - The claim for efc exists, updating.
+2025-02-20 20:36:24,381 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:36:24,395 - INFO - Updating the claim details.
+2025-02-20 20:36:24,396 - INFO - Updating paths
+2025-02-20 20:36:24,396 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:36:24,404 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:36:24,405 - INFO - ---------------------------------
+2025-02-20 20:36:24,405 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:36:24,406 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:36:24,407 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:36:24,407 - INFO - The directory for the claim efc exists.
+2025-02-20 20:36:24,407 - INFO - The claim for efc exists, updating.
+2025-02-20 20:36:24,407 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:36:24,410 - INFO - Updating the claim details.
+2025-02-20 20:36:24,412 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:36:24,412 - INFO - ---------------------------------
+2025-02-20 20:36:24,413 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-20 20:36:24,414 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:36:26,870 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:36:26,870 - INFO - The directory for the claim efc exists.
+2025-02-20 20:36:26,870 - INFO - The claim for efc exists, updating.
+2025-02-20 20:36:26,870 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/efc-kv-internal.yaml.
+2025-02-20 20:36:26,892 - INFO - Updating the claim details.
+2025-02-20 20:36:26,893 - INFO - Updating paths
+2025-02-20 20:36:26,893 - INFO - Updating the efc-kv-internal.yaml
+2025-02-20 20:36:26,905 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:36:26,905 - INFO - ---------------------------------
+2025-02-20 20:36:26,905 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:36:26,906 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:36:26,907 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc
+2025-02-20 20:36:26,908 - INFO - The directory for the claim efc exists.
+2025-02-20 20:36:26,908 - INFO - The claim for efc exists, updating.
+2025-02-20 20:36:26,908 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/efc/efc-kv-internal.yaml.
+2025-02-20 20:36:26,914 - INFO - Updating the claim details.
+2025-02-20 20:36:26,918 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:36:26,918 - INFO - ---------------------------------
+2025-02-20 20:36:26,918 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-20 20:36:26,920 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:37:06,033 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:37:06,034 - INFO - The directory for the claim csm exists.
+2025-02-20 20:37:06,034 - INFO - The claim csm will be created.
+2025-02-20 20:37:06,034 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-20 20:37:06,037 - INFO - Updating the claim details.
+2025-02-20 20:37:06,037 - INFO - Updating the csm-kv-internal.yaml
+2025-02-20 20:37:06,039 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:37:06,039 - INFO - ---------------------------------
+2025-02-20 20:37:06,039 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:37:06,040 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:37:06,041 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm
+2025-02-20 20:37:06,041 - INFO - The directory for the claim csm does not exist.
+2025-02-20 20:37:06,041 - INFO - Creating the directory csm.
+2025-02-20 20:37:06,041 - INFO - Loading the kustomization data from templates/jwt-internal-group.yaml.
+2025-02-20 20:37:06,044 - INFO - Updating the claim details.
+2025-02-20 20:37:06,045 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:37:06,045 - INFO - ---------------------------------
+2025-02-20 20:37:06,045 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-20 20:37:06,046 - INFO - ['efc/efc-kv-internal.yaml']
+2025-02-20 20:37:43,680 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-20 20:37:43,681 - INFO - The directory for the claim csm exists.
+2025-02-20 20:37:43,681 - INFO - The claim for csm exists, updating.
+2025-02-20 20:37:43,681 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/csm-kv-internal.yaml.
+2025-02-20 20:37:43,684 - INFO - Updating the claim details.
+2025-02-20 20:37:43,684 - INFO - Updating paths
+2025-02-20 20:37:43,685 - INFO - Updating the csm-kv-internal.yaml
+2025-02-20 20:37:43,686 - INFO - JWT access-request Claim saved successfully.
+2025-02-20 20:37:43,686 - INFO - ---------------------------------
+2025-02-20 20:37:43,686 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-20 20:37:43,687 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm
+2025-02-20 20:37:43,687 - INFO - The directory for the claim csm exists.
+2025-02-20 20:37:43,687 - INFO - The claim for csm exists, updating.
+2025-02-20 20:37:43,688 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm/csm-kv-internal.yaml.
+2025-02-20 20:37:43,691 - INFO - Updating the claim details.
+2025-02-20 20:37:43,694 - INFO - JWT internal-group Claim saved successfully.
+2025-02-20 20:37:43,695 - INFO - ---------------------------------
+2025-02-20 20:37:43,695 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-21 08:55:37,434 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 08:55:37,436 - INFO - The directory for the claim csm exists.
+2025-02-21 08:55:37,436 - INFO - The claim for csm exists, updating.
+2025-02-21 08:55:37,436 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/csm-kv-internal.yaml.
+2025-02-21 08:55:37,441 - INFO - Updating the claim details.
+2025-02-21 08:55:37,441 - INFO - Updating paths
+2025-02-21 08:55:37,441 - INFO - Updating the csm-kv-internal.yaml
+2025-02-21 08:55:37,443 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 08:55:37,443 - INFO - ---------------------------------
+2025-02-21 08:55:37,443 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 08:55:37,445 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm
+2025-02-21 08:55:37,445 - INFO - The directory for the claim csm exists.
+2025-02-21 08:55:37,445 - INFO - The claim for csm exists, updating.
+2025-02-21 08:55:37,445 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm/csm-kv-internal.yaml.
+2025-02-21 08:55:37,448 - INFO - Updating the claim details.
+2025-02-21 08:55:37,449 - INFO - JWT internal-group Claim saved successfully.
+2025-02-21 08:55:37,450 - INFO - ---------------------------------
+2025-02-21 08:55:37,450 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-21 09:06:06,044 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 09:06:06,044 - INFO - The directory for the claim csm exists.
+2025-02-21 09:06:06,045 - INFO - The claim csm will be created.
+2025-02-21 09:06:06,045 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-21 09:06:06,059 - INFO - Updating the claim details.
+2025-02-21 09:06:06,059 - INFO - Updating the csm-kv-int.yaml
+2025-02-21 09:06:06,061 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 09:06:06,061 - INFO - ---------------------------------
+2025-02-21 09:06:06,061 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 09:06:06,063 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm
+2025-02-21 09:06:06,063 - INFO - The directory for the claim csm exists.
+2025-02-21 09:06:06,063 - INFO - The claim csm will be created.
+2025-02-21 09:06:06,063 - INFO - Loading the kustomization data from templates/jwt-internal-group.yaml.
+2025-02-21 09:06:06,067 - INFO - Updating the claim details.
+2025-02-21 09:06:06,068 - INFO - JWT internal-group Claim saved successfully.
+2025-02-21 09:06:06,069 - INFO - ---------------------------------
+2025-02-21 09:06:06,069 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-21 09:18:53,727 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 09:18:53,728 - INFO - The directory for the claim csm does not exist.
+2025-02-21 09:18:53,728 - INFO - Creating the directory csm.
+2025-02-21 09:18:53,729 - INFO - Loading the kustomization data from templates/jwt-access-request.yaml.
+2025-02-21 09:18:53,732 - INFO - Updating the claim details.
+2025-02-21 09:18:53,732 - INFO - Updating the csm-kv-int.yaml
+2025-02-21 09:18:53,737 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 09:18:53,737 - INFO - ---------------------------------
+2025-02-21 09:18:53,737 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 09:18:53,738 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml'
+2025-02-21 09:18:53,738 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml'
+2025-02-21 09:19:57,646 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 09:19:57,646 - INFO - The directory for the claim csm exists.
+2025-02-21 09:19:57,647 - INFO - The claim for csm exists, updating.
+2025-02-21 09:19:57,648 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/csm-kv-int.yaml.
+2025-02-21 09:19:57,655 - INFO - Updating the claim details.
+2025-02-21 09:19:57,655 - INFO - Updating paths
+2025-02-21 09:19:57,655 - INFO - Updating the csm-kv-int.yaml
+2025-02-21 09:19:57,658 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 09:19:57,659 - INFO - ---------------------------------
+2025-02-21 09:19:57,659 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 09:19:57,660 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm
+2025-02-21 09:19:57,660 - INFO - The directory for the claim csm does not exist.
+2025-02-21 09:19:57,661 - INFO - Creating the directory csm.
+2025-02-21 09:19:57,661 - INFO - Loading the kustomization data from templates/jwt-internal-group.yaml.
+2025-02-21 09:19:57,665 - INFO - Updating the claim details.
+2025-02-21 09:19:57,668 - INFO - JWT internal-group Claim saved successfully.
+2025-02-21 09:19:57,668 - INFO - ---------------------------------
+2025-02-21 09:19:57,669 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-21 09:19:57,669 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml'
+2025-02-21 09:19:57,669 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml'
+2025-02-21 09:20:13,291 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-21 09:20:13,292 - INFO - The directory for the claim csm exists.
+2025-02-21 09:20:13,292 - INFO - The claim for csm exists, updating.
+2025-02-21 09:20:13,292 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/csm-kv-int.yaml.
+2025-02-21 09:20:13,297 - INFO - Updating the claim details.
+2025-02-21 09:20:13,297 - INFO - Updating paths
+2025-02-21 09:20:13,298 - INFO - Updating the csm-kv-int.yaml
+2025-02-21 09:20:13,300 - INFO - JWT access-request Claim saved successfully.
+2025-02-21 09:20:13,300 - INFO - ---------------------------------
+2025-02-21 09:20:13,300 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-21 09:20:13,303 - INFO - Current working directory: /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm
+2025-02-21 09:20:13,303 - INFO - The directory for the claim csm exists.
+2025-02-21 09:20:13,303 - INFO - The claim for csm exists, updating.
+2025-02-21 09:20:13,304 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/csm/csm-kv-int.yaml.
+2025-02-21 09:20:13,307 - INFO - Updating the claim details.
+2025-02-21 09:20:13,308 - INFO - JWT internal-group Claim saved successfully.
+2025-02-21 09:20:13,308 - INFO - ---------------------------------
+2025-02-21 09:20:13,309 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.

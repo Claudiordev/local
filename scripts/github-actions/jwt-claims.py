@@ -45,29 +45,31 @@ class JwtClaims(object):
         with open(kustomization_path, "r+") as f:
             # load the kustomization data
             self.__kustomizationData = self.__yaml.load(f)
+            return f
 
-        return
 
-
-    def processEntity(self,claim_type):
+    def process(self,claim_type):
         """
             Generate internal group claim
         :return:
         """
-        cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/jwt"
+        cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/groups/internal"
+
+        if claim_type == "internal-group":
+            cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/secret-engines/kv2/group-accesses-jwt/" + self.__systemName
         # logger.info the current working directory
         logger.info("Current working directory: {0}".format(cwd))
 
-        claim_path = cwd + "/" + self.__systemName
+        claim_path = cwd
         claim_exists=False
 
         if not self._claimPathExists(claim_path):
             logger.info(f"The directory for the claim {self.__systemName} does not exist.")
             logger.info(f"Creating the directory {self.__systemName}.")
             os.makedirs(claim_path,exist_ok=True)
-            claim_path = f"{cwd}/{self.__systemName}/{self.__systemName}-{claim_type}.yaml"
+            claim_path = f"{cwd}/{self.__systemName}-kv-int.yaml"
         else:
-            claim_path = f"{cwd}/{self.__systemName}/{self.__systemName}-{claim_type}.yaml"
+            claim_path = f"{cwd}/{self.__systemName}-kv-int.yaml"
             logger.info(f"The directory for the claim {self.__systemName} exists.")
             claim_exists = self._claimPathExists(claim_path)
             if claim_exists:
@@ -81,29 +83,55 @@ class JwtClaims(object):
 
         self.loadTemplate(kustomization_path)
 
+        managed_identities_list = [identity.strip() for identity in self.__managedIdentities.split(',')]
+        secret_paths_list = [path.strip() for path in self.__secretPaths.split(',')]
+
         logger.info("Updating the claim details.")
         # update the claim details
-        if claim_type == "internal-group":
-            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-group"
-            self.__kustomizationData["spec"]["parameters"]["group"]["name"] = self.__systemName + "-group"
-            self.__kustomizationData["spec"]["parameters"]["group"]["policy"] = self.__systemName + "-policy"
-        elif claim_type == "entity":
-            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-entity"
-            self.__kustomizationData["spec"]["parameters"]["entity"]["name"] = self.__systemName + "-entity"
-        elif claim_type == "entity-alias":
-            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-entity-alias"
-            self.__kustomizationData["spec"]["parameters"]["alias"]["name"] = self.__systemName + "-entity-alias"
-        elif claim_type == "vault-policy":
-            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-policy"
-            self.__kustomizationData["spec"]["parameters"]["policy"]["name"] = self.__systemName + "-policy"
-            self.__kustomizationData["spec"]["parameters"]["policy"]["secretEngineName"] = self.__systemName
-
-        logger.info(f"Updating the {self.__systemName}/{self.__systemName}.yaml")
+        if claim_type == "access-request":
+            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName)
+            self.__kustomizationData["spec"]["parameters"]["systemName"]= self.process_string(self.__systemName)
+            if len(self.__kustomizationData["spec"]["parameters"]["managedIdentities"]) > 1:
+                existing_managed_identities = list(self.__kustomizationData["spec"]["parameters"]["managedIdentities"])
+                existing_managed_identities.extend(managed_identities_list)
+                self.__kustomizationData["spec"]["parameters"]["managedIdentities"] = existing_managed_identities
+            else:
+                self.__kustomizationData["spec"]["parameters"]["managedIdentities"] = managed_identities_list
+            if len(self.__kustomizationData["spec"]["parameters"]["readSecretPaths"]) > 1:
+                logger.info("Updating paths")
+                existing_read_secret_paths = list(self.__kustomizationData["spec"]["parameters"]["readSecretPaths"])
+                existing_read_secret_paths.extend(secret_paths_list)
+                self.__kustomizationData["spec"]["parameters"]["readSecretPaths"] = existing_read_secret_paths
+            else:
+                self.__kustomizationData["spec"]["parameters"]["readSecretPaths"] = secret_paths_list
+            logger.info(f"Updating the {self.__systemName}-kv-int.yaml")
+        elif claim_type == "internal-group":
+            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-int"
+            self.__kustomizationData["spec"]["parameters"]["group"]["name"] = self.process_string(self.__systemName) + "-int"
 
         with open(claim_path, "w") as f:
             self.__yaml.dump(self.__kustomizationData, f)
             logger.info(f"JWT {claim_type} Claim saved successfully.")
             logger.info("---------------------------------")
+
+        if claim_type == "access-request":
+            kustomization_path = cwd + "/kustomization.yaml"
+        elif claim_type == "internal-group":
+            kustomization_path = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/secret-engines/kv2/group-accesses-jwt/kustomization.yaml"
+
+        self.__yaml.indent(sequence=4, offset=2)
+
+        kustomizationEntry = f"{self.__systemName}/{self.__systemName}-kv-int.yaml"
+        self.loadTemplate(kustomization_path)
+
+
+        existing_resources_entries = list(self.__kustomizationData["resources"])
+        if kustomizationEntry not in existing_resources_entries:
+            existing_resources_entries.insert(len(self.__kustomizationData["resources"]),kustomizationEntry)
+            self.__kustomizationData["resources"] = existing_resources_entries
+
+        with open(kustomization_path, "w") as f:
+            self.__yaml.dump(self.__kustomizationData, f)
 
         return
 
@@ -131,10 +159,8 @@ if __name__ == "__main__":
             jwtClaims = JwtClaims(vaultEnvironment, systemName, managedIdentities, secretPaths)
 
             # Process InternalGroupClaim
-            jwtClaims.processEntity('internal-group')
-            jwtClaims.processEntity('entity')
-            jwtClaims.processEntity('entity-alias')
-            jwtClaims.processEntity('vault-policy')
+            jwtClaims.process('access-request')
+            jwtClaims.process('internal-group')
     except Exception as e:
         logger.error(f"An error occurred: {e}")
         sys.exit(1)
