@@ -160,15 +160,15 @@ jobs:
           echo "Pull request created with number: $pr_number"
           echo "pr_number=${pr_number}" >> $GITHUB_OUTPUT
 
-#      - name: Approve PR
-#        if: ${{ inputs.autoApproval == 'true' }}
-#        id: approve-pr
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.BPPCSMOP_PAT_REPO_FULL_ACCESS }}
-#        run: |
-#          echo "Approving PR..."
-#          gh pr review --approve ${{ steps.create-pr.outputs.pr_number }}
-#          echo "PR approved successfully!"
-#          echo "Merging PR..."
-#          gh pr merge ${{ steps.create-pr.outputs.pr_number }} --auto
-#          echo "PR merged successfully!"
+      - name: Approve PR
+        if: ${{ inputs.autoApproval == 'true' }}
+        id: approve-pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Approving PR..."
+          gh pr review --approve ${{ steps.create-pr.outputs.pr_number }}
+          echo "PR approved successfully!"
+          echo "Merging PR..."
+          gh pr merge ${{ steps.create-pr.outputs.pr_number }} --auto
+          echo "PR merged successfully!"
