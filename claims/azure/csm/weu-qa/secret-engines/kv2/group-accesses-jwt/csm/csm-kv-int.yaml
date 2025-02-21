@@ -1,0 +1,13 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: InternalGroup
+metadata:
+  name: csm-int
+  namespace: vault-crossplane
+spec:
+  parameters:
+    commonConfig:
+      deletionPolicy: Delete
+      providerConfigRef: vault-provider-config
+    group:
+      name: csm-int
+      type: internal
