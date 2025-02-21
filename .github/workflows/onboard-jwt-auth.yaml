@@ -63,7 +63,7 @@ jobs:
 
           # Step 2: Create the feature branch from main
           echo "Creating the feature branch."
-          git checkout -b ${{ inputs.vault_engine }}-jwt-claim
+          git checkout -b ${{ inputs.system_name }}-jwt-claim
 
       # Install python packages
       - name: Install packages
