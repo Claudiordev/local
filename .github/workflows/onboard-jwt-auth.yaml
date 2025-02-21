@@ -176,3 +176,47 @@ jobs:
           MERGE_REQUIRED_APPROVALS: "0"
           MERGE_DELETE_BRANCH: "true"
           MERGE_ERROR_FAIL: "true"
+
+      - name: Send email to the requester on success
+        uses: xander-rudolph/send-grid-action@main
+        if: ${{ env.EXIT_CODE_CLAIM_CREATION_SCRIPT == 'success' }}
+        env:
+          sendGridApiKey: ${{ secrets.SENDGRID_KEY }}
+        with:
+          toEmail: ${{ inputs.updatedBy }}
+          fromEmail: cfreita1@volvocars.com
+          subject: "JWT enabled in ${{ inputs.system_name }}"
+          body: |
+            <html>
+              <body>
+                <p>Hello,</p>
+                <p>Your request to enable JWT has been successfully processed. This will be reflected in Vault after 10 mins.</p>
+                <h3>Details:</h3>
+                <ul>
+                  <li><b>Vault Environment:</b> ${{ inputs.vault_environment }}</li>
+                  <li><b>Managed identities:</b> ${{ inputs.managed_identities }}</li>
+                  <li><b>Secret Path and its access details:</b> ${{ inputs.secret_paths }}</li>
+                </ul>
+                <h3>Access Information:</h3>
+                <ul>
+                  <li>Your specified managed identities have now read access to the above secret path(s).</li>
+                  <li>Access with JWT at:
+                    <ul>
+                      <li>QA Environment: <a href="https://vault-qa.csm.volvocars.biz">https://vault-qa.csm.volvocars.biz</a></li>
+                      <li>Production Environment: <a href="https://vault.csm.volvocars.biz">https://vault.csm.volvocars.biz</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <h3>Track Your Request:</h3>
+                <p>
+                  Monitor the progress here: <a href="https://github.com/volvo-cars/central-vault-configurations/pull/${{ steps.create-pr.outputs.pr_number }}">PR</a>
+                </p>
+                <h3>Need Help?</h3>
+                <p>
+                  Join our support channel: <a href="https://volvocars.enterprise.slack.com/archives/C087XFLEG3H">
+                    #central-vault-support in slack
+                  </a>
+                </p>
+                <p>Happy coding,<br>DevEx Security - Central Secrets Management</p>
+              </body>
+            </html>
