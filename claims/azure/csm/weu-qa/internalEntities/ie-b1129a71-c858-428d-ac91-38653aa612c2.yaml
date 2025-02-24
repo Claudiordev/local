@@ -1,0 +1,14 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: InternalEntity
+metadata:
+  name: ie-b1129a71-c858-428d-ac91-38653aa612c2
+  namespace: vault-crossplane
+spec:
+  parameters:
+    commonConfig:
+      deletionPolicy: Delete
+      providerConfigRef: vault-provider-config
+    internalEntity:
+      name: ie-b1129a71-c858-428d-ac91-38653aa612c2
+      objectId: b1129a71-c858-428d-ac91-38653aa612c2
+      type: internal
