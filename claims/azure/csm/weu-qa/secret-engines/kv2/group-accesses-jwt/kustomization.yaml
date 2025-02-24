@@ -3,3 +3,4 @@ resources:
   - csm/csm-kv-int.yaml
   - efc/efc-kv-int.yaml
   - test/test-kv-int.yaml
+  - test.yaml
