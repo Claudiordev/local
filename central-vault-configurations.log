@@ -2496,3 +2496,28 @@
 2025-02-24 12:22:07,787 - INFO - JWT internal-entity Claim saved successfully.
 2025-02-24 12:22:07,787 - INFO - ---------------------------------
 2025-02-24 12:22:07,787 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/internalEntities/kustomization.yaml.
+2025-02-24 13:34:14,012 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-24 13:34:14,012 - INFO - The directory for the claim test exists.
+2025-02-24 13:34:14,012 - INFO - The claim for test exists, updating.
+2025-02-24 13:34:14,012 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal/test-kv-int.yaml.
+2025-02-24 13:34:14,015 - INFO - Updating the claim details.
+2025-02-24 13:34:14,015 - INFO - Updating the test-kv-int.yaml
+2025-02-24 13:34:14,018 - INFO - JWT access-request Claim saved successfully.
+2025-02-24 13:34:14,018 - INFO - ---------------------------------
+2025-02-24 13:34:14,018 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-24 13:34:14,020 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/test
+2025-02-24 13:34:14,020 - INFO - The directory for the claim test exists.
+2025-02-24 13:34:14,020 - INFO - The claim for test exists, updating.
+2025-02-24 13:34:14,020 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/test/test-kv-int.yaml.
+2025-02-24 13:34:14,022 - INFO - Updating the claim details.
+2025-02-24 13:34:14,023 - INFO - JWT internal-group Claim saved successfully.
+2025-02-24 13:34:14,023 - INFO - ---------------------------------
+2025-02-24 13:34:14,023 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-jwt/kustomization.yaml.
+2025-02-24 13:34:14,025 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/internalEntities
+2025-02-24 13:34:14,025 - INFO - The directory for the claim test exists.
+2025-02-24 13:34:14,025 - INFO - The claim test will be created.
+2025-02-24 13:34:14,025 - INFO - Loading the kustomization data from templates/jwt-internal-entity.yaml.
+2025-02-24 13:34:14,028 - INFO - Updating the claim details.
+2025-02-24 13:34:14,029 - INFO - JWT internal-entity Claim saved successfully.
+2025-02-24 13:34:14,029 - INFO - ---------------------------------
+2025-02-24 13:34:14,029 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/internalEntities/kustomization.yaml.
