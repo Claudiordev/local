@@ -47,6 +47,21 @@ class JwtClaims(object):
             self.__kustomizationData = self.__yaml.load(f)
             return f
 
+    def writeYaml(self,path):
+        """
+        """
+
+        with open(path, "w") as f:
+            self.__yaml.dump(self.__kustomizationData, f)
+
+            return True
+
+    def kustomization(self,kustomizationEntry):
+        existing_resources_entries = list(self.__kustomizationData["resources"])
+        if kustomizationEntry not in existing_resources_entries:
+            existing_resources_entries.insert(len(self.__kustomizationData["resources"]),kustomizationEntry)
+            self.__kustomizationData["resources"] = existing_resources_entries
+
 
     def process(self,claim_type):
         """
@@ -57,6 +72,8 @@ class JwtClaims(object):
 
         if claim_type == "internal-group":
             cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/secret-engines/kv2/group-accesses-jwt/" + self.__systemName
+        elif claim_type == "internal-entity":
+            cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/internalEntities"
         # logger.info the current working directory
         logger.info("Current working directory: {0}".format(cwd))
 
@@ -108,30 +125,46 @@ class JwtClaims(object):
         elif claim_type == "internal-group":
             self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-int"
             self.__kustomizationData["spec"]["parameters"]["group"]["name"] = self.process_string(self.__systemName) + "-int"
+        elif claim_type == "internal-entity":
+            for ie in managed_identities_list:
+                claim_path = cwd + "/ie-" + ie + ".yaml"
 
-        with open(claim_path, "w") as f:
-            self.__yaml.dump(self.__kustomizationData, f)
-            logger.info(f"JWT {claim_type} Claim saved successfully.")
-            logger.info("---------------------------------")
+                self.__kustomizationData["metadata"]["name"] = "ie-" + ie
+                self.__kustomizationData["spec"]["parameters"]["internalEntity"]["name"] = "ie-" + ie
+                self.__kustomizationData["spec"]["parameters"]["internalEntity"]["objectId"] = ie
+
+                if self.writeYaml(claim_path):
+                    logger.info(f"JWT {claim_type} Claim saved successfully.")
+                    logger.info("---------------------------------")
+
+        if claim_type != "internal-entity":
+            if self.writeYaml(claim_path):
+                logger.info(f"JWT {claim_type} Claim saved successfully.")
+                logger.info("---------------------------------")
 
         if claim_type == "access-request":
             kustomization_path = cwd + "/kustomization.yaml"
         elif claim_type == "internal-group":
             kustomization_path = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/secret-engines/kv2/group-accesses-jwt/kustomization.yaml"
+        elif claim_type == "internal-entity":
+            kustomization_path = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/internalEntities/kustomization.yaml"
 
         self.__yaml.indent(sequence=4, offset=2)
 
-        kustomizationEntry = f"{self.__systemName}/{self.__systemName}-kv-int.yaml"
         self.loadTemplate(kustomization_path)
 
+        kustomizationEntry = f"{self.__systemName}/{self.__systemName}-kv-int.yaml"
+        if claim_type == "internal-group":
+            kustomizationEntry = f"{self.__systemName}.yaml"
 
-        existing_resources_entries = list(self.__kustomizationData["resources"])
-        if kustomizationEntry not in existing_resources_entries:
-            existing_resources_entries.insert(len(self.__kustomizationData["resources"]),kustomizationEntry)
-            self.__kustomizationData["resources"] = existing_resources_entries
+        elif claim_type == "internal-entity":
+            for ie in managed_identities_list:
+                kustomizationEntry = f"ie-{ie}.yaml"
+                self.kustomization(kustomizationEntry)
 
-        with open(kustomization_path, "w") as f:
-            self.__yaml.dump(self.__kustomizationData, f)
+        self.kustomization(kustomizationEntry)
+
+        self.writeYaml(kustomization_path)
 
         return
 
@@ -161,6 +194,7 @@ if __name__ == "__main__":
             # Process InternalGroupClaim
             jwtClaims.process('access-request')
             jwtClaims.process('internal-group')
+            jwtClaims.process('internal-entity')
     except Exception as e:
         logger.error(f"An error occurred: {e}")
         sys.exit(1)
