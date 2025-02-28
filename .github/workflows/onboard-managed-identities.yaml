@@ -80,9 +80,10 @@ jobs:
       - name: Create or update claims
         run: |
           echo "Running the KV2 secret engine claim script..."
+          system_name=$(echo "${{ inputs.system_name }}" | sed 's/^system:default\///')
           python3 scripts/github-actions/kv2-group-access-mi-claim.py 'create_claims' \
                                                   --vaultEnvironment '${{ inputs.vault_environment }}' \
-                                                  --systemName '${{ inputs.system_name }}' \
+                                                  --systemName "${system_name}" \
                                                   --managedIdentities "${{ inputs.managed_identities }}" \
                                                   --secretPaths "${{ inputs.secret_paths }}"
 
