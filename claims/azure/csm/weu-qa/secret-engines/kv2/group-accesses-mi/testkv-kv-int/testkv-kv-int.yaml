@@ -1,0 +1,14 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: GroupAccessMI
+metadata:
+  name: testkv-kv-int
+  namespace: vault-crossplane
+  annotations:
+    updatedBy: PDESHMUK@volvocars.com
+spec:
+  parameters:
+    systemName: testkv
+    managedIdentities:
+      - b1129a71-c858-428d-ac91-38653aa612c2
+    readSecretPaths:
+      - testkv-kv
