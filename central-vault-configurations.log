@@ -6439,3 +6439,28 @@ expected <block end>, but found '<scalar>'
 2025-02-28 12:47:20,075 - INFO -  internal-entity Claim saved successfully.
 2025-02-28 12:47:20,075 - INFO - ---------------------------------
 2025-02-28 12:47:20,075 - INFO - Loading the kustomization data from /home/claudiordev/repos/local/claims/azure/csm/weu-qa/internalEntities/kustomization.yaml.
+2025-02-28 14:19:50,799 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal
+2025-02-28 14:19:50,799 - INFO - The directory for the group claim test-kv-int exists.
+2025-02-28 14:19:50,799 - INFO - The claim test-kv-int will be created.
+2025-02-28 14:19:50,799 - INFO - Loading the kustomization data from templates/group.yaml.
+2025-02-28 14:19:50,802 - INFO - Updating the claim details.
+2025-02-28 14:19:50,803 - INFO -  group Claim saved successfully.
+2025-02-28 14:19:50,803 - INFO - ---------------------------------
+2025-02-28 14:19:50,803 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/groups/internal/kustomization.yaml.
+2025-02-28 14:19:50,805 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-mi/test-kv-int
+2025-02-28 14:19:50,805 - INFO - The directory for the kv2-group-access-mi claim test does not exist.
+2025-02-28 14:19:50,805 - INFO - Creating the directory test.
+2025-02-28 14:19:50,805 - INFO - Loading the kustomization data from templates/kv2-group-access-mi.yaml.
+2025-02-28 14:19:50,807 - INFO - Updating the claim details.
+2025-02-28 14:19:50,807 - INFO - 1
+2025-02-28 14:19:50,807 - INFO - Starting secret path: test-kv
+2025-02-28 14:19:50,809 - INFO -  kv2-group-access-mi Claim saved successfully.
+2025-02-28 14:19:50,809 - INFO - ---------------------------------
+2025-02-28 14:19:50,809 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/secret-engines/kv2/group-accesses-mi/kustomization.yaml.
+2025-02-28 14:19:50,810 - INFO - Current working directory: /home/runner/work/local/local/claims/azure/csm/weu-qa/internalEntities
+2025-02-28 14:19:50,810 - INFO - Loading the kustomization data from templates/internal-entity.yaml.
+2025-02-28 14:19:50,812 - INFO - Updating the claim details.
+2025-02-28 14:19:50,812 - INFO -  Creating or updating the internal-entity claim ie-b1129a71-c858-428d-ac91-38653aa612c2.
+2025-02-28 14:19:50,813 - INFO -  internal-entity Claim saved successfully.
+2025-02-28 14:19:50,813 - INFO - ---------------------------------
+2025-02-28 14:19:50,813 - INFO - Loading the kustomization data from /home/runner/work/local/local/claims/azure/csm/weu-qa/internalEntities/kustomization.yaml.
