@@ -1,0 +1,10 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: Group
+metadata:
+  name: {aadGroupName}
+  namespace: vault-crossplane
+spec:
+  parameters:
+    group:
+      name: {aadGroupName}
+      objectId: {aadGroupObjectID}

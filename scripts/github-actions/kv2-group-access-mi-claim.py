@@ -6,7 +6,7 @@ sys.path.append(parent_directory)
 from ruamel.yaml import YAML
 from utils.logging.logging_config import logger
 
-class JwtClaims(object):
+class MiClaims(object):
 
     def __init__(self, vaultEnvironment, systemName, managedIdentities, secretPaths):
         self.__vaultEnvironment = vaultEnvironment
@@ -17,6 +17,7 @@ class JwtClaims(object):
         self.__rootDirectory = os.getcwd()
         self.__yaml = YAML(typ=['rt', 'string'])
         self.__yaml.default_flow_style = False
+        self.__secretEngine = self.__systemName + "-kv"
 
     def _claimPathExists(self, path)-> bool:
         """
@@ -62,6 +63,44 @@ class JwtClaims(object):
             existing_resources_entries.insert(len(self.__kustomizationData["resources"]),kustomizationEntry)
             self.__kustomizationData["resources"] = existing_resources_entries
 
+    def updateFieldList(self,field,inputlist):
+        """
+
+        :return:
+        """
+        if len(self.__kustomizationData["spec"]["parameters"][f"{field}"]) > 0:
+            extendedlist = list(self.__kustomizationData["spec"]["parameters"][f"{field}"])
+            if extendedlist and extendedlist[0] is None:
+                extendedlist.pop(0)
+            extendedlist.extend(inputlist)
+            extendedlist = list(set(extendedlist))
+            self.__kustomizationData["spec"]["parameters"][f"{field}"] = extendedlist
+        else:
+            self.__kustomizationData["spec"]["parameters"][f"{field}"] = inputlist
+
+    def parsePath(self, requestedSecretPaths):
+        parsedPaths = []
+        for secretPath in requestedSecretPaths:
+            logger.info("Starting secret path: " + secretPath)
+            secretPath = secretPath.strip().rstrip("/")
+            if secretPath.endswith("*"):
+                if len(secretPath.rstrip('*')) == 0:
+                    secretPath = self.__secretEngine
+                else:
+                    if secretPath.endswith("/*"):
+                        secretPath = secretPath.rstrip('/*')
+
+            if secretPath != self.__secretEngine:
+                if not secretPath.startswith(f"{self.__secretEngine}/") or not secretPath.startswith(f"{self.__secretEngine}/data/"): # != engine/ or engine/data/
+                    if secretPath.startswith("/"): #and first character is /, so /engine-kv
+                        secretPath = f"{self.__secretEngine}/data{secretPath}"
+                    else:
+                        secretPath = f"{self.__secretEngine}/data/{secretPath}"
+
+            parsedPaths.append(secretPath)
+
+        return parsedPaths
+
 
     def process(self,claim_type):
         """
@@ -70,10 +109,10 @@ class JwtClaims(object):
         """
         cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/groups/internal"
 
-        if claim_type == "internal-group":
-            cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/secret-engines/kv2/group-accesses-jwt/" + self.__systemName
-        elif claim_type == "internal-entity":
+        if claim_type == "internal-entity":
             cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/internalEntities"
+        elif claim_type == "kv2-group-access-mi":
+            cwd = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/secret-engines/kv2/group-accesses-mi/" + self.__systemName + "-kv-int"
         # logger.info the current working directory
         logger.info("Current working directory: {0}".format(cwd))
 
@@ -81,71 +120,69 @@ class JwtClaims(object):
         claim_exists=False
 
         if not self._claimPathExists(claim_path):
-            logger.info(f"The directory for the claim {self.__systemName} does not exist.")
+            logger.info(f"The directory for the {claim_type} claim {self.__systemName} does not exist.")
             logger.info(f"Creating the directory {self.__systemName}.")
             os.makedirs(claim_path,exist_ok=True)
             claim_path = f"{cwd}/{self.__systemName}-kv-int.yaml"
         else:
             claim_path = f"{cwd}/{self.__systemName}-kv-int.yaml"
-            logger.info(f"The directory for the claim {self.__systemName} exists.")
+            if claim_type != "internal-entity":
+                logger.info(f"The directory for the {claim_type} claim {self.__systemName}-kv-int exists.")
             claim_exists = self._claimPathExists(claim_path)
-            if claim_exists:
-                logger.info(f"The claim for {self.__systemName} exists, updating.")
-            else:
-                logger.info(f"The claim {self.__systemName} will be created.")
+            if claim_exists and claim_type != "internal-entity":
+                logger.info(f"The claim for {self.__systemName}-kv-int exists, updating.")
+            elif not claim_exists and claim_type != "internal-entity":
+                logger.info(f"The claim {self.__systemName}-kv-int will be created.")
 
         kustomization_path = claim_path
         if not claim_exists:
-            kustomization_path = f"templates/jwt-{claim_type}.yaml"
+            kustomization_path = f"templates/{claim_type}.yaml"
 
         self.loadTemplate(kustomization_path)
 
         managed_identities_list = [identity.strip() for identity in self.__managedIdentities.split(',')]
-        secret_paths_list = [path.strip() for path in self.__secretPaths.split(',')]
+        secret_paths_list = [path.strip() for path in self.__secretPaths.split(',')] if self.__secretPaths else []
 
         logger.info("Updating the claim details.")
         # update the claim details
-        if claim_type == "access-request":
-            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName)
+        if claim_type == "group":
+            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-kv-int"
+            self.__kustomizationData["spec"]["parameters"]["group"]["name"] = self.process_string(self.__systemName) + "-kv-int"
+            self.__kustomizationData["spec"]["parameters"]["group"]["external"] = False
+            if "objectId" in self.__kustomizationData["spec"]["parameters"]["group"]:
+                del self.__kustomizationData["spec"]["parameters"]["group"]["objectId"]
+        elif claim_type == "kv2-group-access-mi":
+            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-kv-int"
             self.__kustomizationData["spec"]["parameters"]["systemName"]= self.process_string(self.__systemName)
-            if len(self.__kustomizationData["spec"]["parameters"]["managedIdentities"]) > 1:
-                existing_managed_identities = list(self.__kustomizationData["spec"]["parameters"]["managedIdentities"])
-                existing_managed_identities.extend(managed_identities_list)
-                self.__kustomizationData["spec"]["parameters"]["managedIdentities"] = existing_managed_identities
-            else:
-                self.__kustomizationData["spec"]["parameters"]["managedIdentities"] = managed_identities_list
-            if len(self.__kustomizationData["spec"]["parameters"]["readSecretPaths"]) > 1:
-                logger.info("Updating paths")
-                existing_read_secret_paths = list(self.__kustomizationData["spec"]["parameters"]["readSecretPaths"])
-                existing_read_secret_paths.extend(secret_paths_list)
-                self.__kustomizationData["spec"]["parameters"]["readSecretPaths"] = existing_read_secret_paths
-            else:
-                self.__kustomizationData["spec"]["parameters"]["readSecretPaths"] = secret_paths_list
-            logger.info(f"Updating the {self.__systemName}-kv-int.yaml")
-        elif claim_type == "internal-group":
-            self.__kustomizationData["metadata"]["name"] = self.process_string(self.__systemName) + "-int"
-            self.__kustomizationData["spec"]["parameters"]["group"]["name"] = self.process_string(self.__systemName) + "-int"
+            self.updateFieldList("managedIdentities",managed_identities_list)
+            existingPaths = list(self.__kustomizationData["spec"]["parameters"]["readSecretPaths"])
+            logger.info(len(existingPaths))
+            if len(secret_paths_list) > 0:
+                self.updateFieldList("readSecretPaths",self.parsePath(secret_paths_list))
+            elif len(existingPaths) == 1:
+                secret_paths_list.append(self.__secretEngine)
+                self.updateFieldList("readSecretPaths",self.parsePath(secret_paths_list))
         elif claim_type == "internal-entity":
             for ie in managed_identities_list:
                 claim_path = cwd + "/ie-" + ie + ".yaml"
-
+                logger.info(f" Creating or updating the {claim_type} claim ie-{ie}.")
                 self.__kustomizationData["metadata"]["name"] = "ie-" + ie
                 self.__kustomizationData["spec"]["parameters"]["internalEntity"]["name"] = "ie-" + ie
                 self.__kustomizationData["spec"]["parameters"]["internalEntity"]["objectId"] = ie
 
                 if self.writeYaml(claim_path):
-                    logger.info(f"JWT {claim_type} Claim saved successfully.")
+                    logger.info(f" {claim_type} Claim saved successfully.")
                     logger.info("---------------------------------")
 
         if claim_type != "internal-entity":
             if self.writeYaml(claim_path):
-                logger.info(f"JWT {claim_type} Claim saved successfully.")
+                logger.info(f" {claim_type} Claim saved successfully.")
                 logger.info("---------------------------------")
 
-        if claim_type == "access-request":
+        if claim_type == "group":
             kustomization_path = cwd + "/kustomization.yaml"
-        elif claim_type == "internal-group":
-            kustomization_path = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/secret-engines/kv2/group-accesses-jwt/kustomization.yaml"
+        elif claim_type == "kv2-group-access-mi":
+            kustomization_path = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/secret-engines/kv2/group-accesses-mi/kustomization.yaml"
         elif claim_type == "internal-entity":
             kustomization_path = self.__rootDirectory + "/claims/azure/csm/" + self.__vaultEnvironment + "/internalEntities/kustomization.yaml"
 
@@ -153,9 +190,9 @@ class JwtClaims(object):
 
         self.loadTemplate(kustomization_path)
 
-        kustomizationEntry = f"{self.__systemName}/{self.__systemName}-kv-int.yaml"
-        if claim_type == "internal-group":
-            kustomizationEntry = f"{self.__systemName}.yaml"
+        kustomizationEntry = f"{self.__systemName}-kv-int.yaml"
+        if claim_type == "kv2-group-access-mi":
+            kustomizationEntry = f"{self.__systemName}-kv-int/{self.__systemName}-kv-int.yaml"
 
         elif claim_type == "internal-entity":
             for ie in managed_identities_list:
@@ -187,14 +224,14 @@ if __name__ == "__main__":
             vaultEnvironment = args.vaultEnvironment.strip()
             systemName = args.systemName.strip()
             managedIdentities = args.managedIdentities.strip()
-            secretPaths = args.secretPaths.strip()
+            secretPaths = args.secretPaths.strip() if args.secretPaths else None
 
-            jwtClaims = JwtClaims(vaultEnvironment, systemName, managedIdentities, secretPaths)
+            miClaims = MiClaims(vaultEnvironment, systemName, managedIdentities, secretPaths)
 
             # Process InternalGroupClaim
-            jwtClaims.process('access-request')
-            jwtClaims.process('internal-group')
-            jwtClaims.process('internal-entity')
+            miClaims.process('group')
+            miClaims.process('kv2-group-access-mi')
+            miClaims.process('internal-entity')
     except Exception as e:
         logger.error(f"An error occurred: {e}")
         sys.exit(1)

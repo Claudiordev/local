@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: alpine-cli
+  namespace: cluster-core
+  labels:
+    app: alpine-cli
+spec:
+  containers:
+    - name: alpine
+      image: alpine:3.18
+      command: ["sleep", "infinity"]
+      stdin: true
+      tty: true
+  restartPolicy: Never
+
+#kubectl apply -f alpine-pod.yaml
+#kubectl config get-contexts
+#kubectl config use-context <context>

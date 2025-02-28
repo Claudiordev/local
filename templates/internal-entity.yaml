@@ -1,14 +1,11 @@
 apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
 kind: InternalEntity
 metadata:
-  name: {systemName}
+  name: {objectId}
   namespace: vault-crossplane
 spec:
   parameters:
-    commonConfig:
-      deletionPolicy: "Delete"
-      providerConfigRef: "vault-provider-config"
     internalEntity:
+      authBackendName: jwt-azure-managed-identity
       name: {objectId}
       objectId: {objectId}
-      type: "internal"

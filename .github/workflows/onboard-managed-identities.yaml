@@ -184,7 +184,7 @@ jobs:
           sendGridApiKey: ${{ secrets.SENDGRID_KEY }}
         with:
           toEmail: ${{ inputs.updatedBy }}
-          fromEmail: cfreita1@volvocars.com
+          fromEmail: BPPCSMOP@volvocars.com
           subject: "JWT enabled in ${{ inputs.system_name }}"
           body: |
             <html>
