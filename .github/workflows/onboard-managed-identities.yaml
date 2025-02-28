@@ -80,7 +80,7 @@ jobs:
       - name: Create or update claims
         run: |
           echo "Running the KV2 secret engine claim script..."
-          python3 scripts/github-actions/jwt-claims.py 'create_claims' \
+          python3 scripts/github-actions/kv2-group-access-mi-claim.py 'create_claims' \
                                                   --vaultEnvironment '${{ inputs.vault_environment }}' \
                                                   --systemName '${{ inputs.system_name }}' \
                                                   --managedIdentities "${{ inputs.managed_identities }}" \
