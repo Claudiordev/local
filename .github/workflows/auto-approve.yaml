@@ -15,10 +15,15 @@ jobs:
       - name: Auto-merge if author is Claudiordev
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          AUTHOR=$(jq -r .pull_request.user.login "$GITHUB_EVENT_PATH")
-          if [ "$AUTHOR" = "Claudiordev" ]; then
-            gh pr merge --auto --merge "$GITHUB_REF"
-          else
-            echo "PR author is not Claudiordev, skipping merge."
-          fi
+        run:  |
+            PR_NUMBER=$(jq -r .pull_request.number "$GITHUB_EVENT_PATH")
+            AUTHOR=$(jq -r .pull_request.user.login "$GITHUB_EVENT_PATH")
+
+            echo "Pull Request Number: $PR_NUMBER"
+            echo "Author: $AUTHOR"
+
+            if [ "$AUTHOR" = "Claudiordev" ]; then
+              gh pr merge $PR_NUMBER --auto --merge
+            else
+              echo "PR author is not Claudiordev, skipping merge."
+            fi
