@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: vault-token
+  namespace: vault
+type: Opaque
+data:
+  VAULT_TOKEN: aHZzLllhTVZicHJmRzkxdzBvUmxrTklTVk9mRw==

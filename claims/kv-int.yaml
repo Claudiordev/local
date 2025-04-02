@@ -1,0 +1,13 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: Kv2SecretEngine
+metadata:
+  name: ${{ values.systemName }}
+  namespace: vault-crossplane
+  annotations:
+    updatedBy: ${{ values.updatedBy }}
+spec:
+  parameters:
+    systemConfig:
+      systemName: ${{ values.systemName }}
+      owner: ${{ values.owner }}
+      vaultEnvironment: ${{ values.vaultEnvironment }}
