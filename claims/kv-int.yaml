@@ -1,7 +1,7 @@
 apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
 kind: Kv2SecretEngine
 metadata:
-  name: ${{ values.systemName }}
+  name: value
   namespace: vault-crossplane
   annotations:
     updatedBy: ${{ values.updatedBy }}
