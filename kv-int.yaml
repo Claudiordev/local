@@ -1,0 +1,13 @@
+apiVersion: config.vault.upbound.csm.volvocars.biz/v1alpha1
+kind: Kv2SecretEngine
+metadata:
+  name: sample-system
+  namespace: vault-crossplane
+  annotations:
+    updatedBy: CFREITA1@volvocars.com
+spec:
+  parameters:
+    systemConfig:
+      systemName: sample-system
+      owner: CFREITA1
+      vaultEnvironment: weu-prod
